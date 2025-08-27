@@ -369,6 +369,113 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Teachers Section */}
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-6">Наши преподаватели</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Команда опытных детских психологов и специалистов по эмоциональному интеллекту
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                name: "Анна Смирнова",
+                position: "Ведущий детский психолог",
+                experience: "8 лет опыта",
+                education: "МГУ, факультет психологии",
+                specialization: "Работа с детьми 6-12 лет",
+                achievements: "Автор 15+ научных работ",
+                photo: "/img/71412321-f67f-4438-b6e6-f8dba6ffe9f0.jpg"
+              },
+              {
+                name: "Михаил Волков",
+                position: "Специалист по подростковой психологии",
+                experience: "12 лет опыта",
+                education: "СПбГУ, клиническая психология",
+                specialization: "Подростки 13-16 лет",
+                achievements: "Сертификат Harvard Extension School",
+                photo: "/img/269c5737-b114-4dc9-9af5-af8956850c9c.jpg"
+              },
+              {
+                name: "Елена Петрова",
+                position: "Методист-разработчик программ",
+                experience: "10 лет опыта",
+                education: "МГППУ, детская психология",
+                specialization: "Развитие эмпатии и социальных навыков",
+                achievements: "Разработчик авторской методики ЭИ",
+                photo: "/img/3e7499a3-b847-45b1-9f73-2198df7d42af.jpg"
+              }
+            ].map((teacher, index) => (
+              <Card key={index} className="text-center hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20">
+                    <img 
+                      src={teacher.photo} 
+                      alt={teacher.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <CardTitle className="text-xl mb-2">{teacher.name}</CardTitle>
+                  <CardDescription className="text-primary font-medium mb-4">
+                    {teacher.position}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-3 text-left">
+                    <div className="flex items-start gap-3">
+                      <Icon name="Clock" size={16} className="text-primary mt-1 flex-shrink-0" />
+                      <span className="text-sm text-muted-foreground">{teacher.experience}</span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <Icon name="GraduationCap" size={16} className="text-primary mt-1 flex-shrink-0" />
+                      <span className="text-sm text-muted-foreground">{teacher.education}</span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <Icon name="Target" size={16} className="text-primary mt-1 flex-shrink-0" />
+                      <span className="text-sm text-muted-foreground">{teacher.specialization}</span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <Icon name="Award" size={16} className="text-primary mt-1 flex-shrink-0" />
+                      <span className="text-sm text-muted-foreground">{teacher.achievements}</span>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+          <div className="text-center mt-12">
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto">
+              <h3 className="text-2xl font-bold mb-4">Почему наши преподаватели — лучшие?</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <Icon name="BookOpen" size={24} className="text-primary" />
+                  </div>
+                  <h4 className="font-semibold mb-2">Высшее образование</h4>
+                  <p className="text-sm text-muted-foreground">Все специалисты имеют профильное психологическое образование</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <Icon name="Users" size={24} className="text-primary" />
+                  </div>
+                  <h4 className="font-semibold mb-2">Практический опыт</h4>
+                  <p className="text-sm text-muted-foreground">Более 500 детей уже прошли обучение у наших преподавателей</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <Icon name="TrendingUp" size={24} className="text-primary" />
+                  </div>
+                  <h4 className="font-semibold mb-2">Постоянное развитие</h4>
+                  <p className="text-sm text-muted-foreground">Регулярно проходят курсы повышения квалификации</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary">
         <div className="container mx-auto px-4 text-center">
