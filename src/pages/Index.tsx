@@ -8,10 +8,12 @@ const Index = () => {
       {/* Header */}
       <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-              <Icon name="Heart" size={20} className="text-primary-foreground" />
-            </div>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/img/a450c831-cf94-40ea-8bd6-423183c85398.jpg" 
+              alt="ЭИ ДЕТИ логотип" 
+              className="w-10 h-10 rounded-full object-cover"
+            />
             <h1 className="text-xl font-bold text-primary">ЭИ ДЕТИ</h1>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
@@ -26,8 +28,22 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 via-secondary/20 to-accent/10 py-20">
-        <div className="container mx-auto px-4 text-center">
+      <section className="bg-gradient-to-br from-primary/10 via-secondary/20 to-accent/10 py-20 relative overflow-hidden">
+        <div className="absolute top-10 right-10 w-48 h-48 rounded-full overflow-hidden opacity-20 hidden lg:block">
+          <img 
+            src="/img/921f73ef-38af-466b-bfcb-9a2ca61df4f7.jpg" 
+            alt="Счастливая семья" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="absolute bottom-10 left-10 w-32 h-32 rounded-full overflow-hidden opacity-20 hidden lg:block">
+          <img 
+            src="/img/02f1d162-c276-4bfb-a33b-fd6849aaae8d.jpg" 
+            alt="Дети выражают эмоции" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="container mx-auto px-4 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground leading-tight">
               Развиваем эмоциональный интеллект детей
@@ -143,6 +159,13 @@ const Index = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
+              <div className="mb-8">
+                <img 
+                  src="/img/a132faa8-6625-4ef6-8eb1-0d354a5a7470.jpg" 
+                  alt="Родитель и ребенок общаются" 
+                  className="w-full h-64 object-cover rounded-2xl shadow-lg"
+                />
+              </div>
               <div className="space-y-8">
                 {[
                   {
@@ -387,7 +410,7 @@ const Index = () => {
                 education: "МГУ, факультет психологии",
                 specialization: "Работа с детьми 6-12 лет",
                 achievements: "Автор 15+ научных работ",
-                photo: "/img/71412321-f67f-4438-b6e6-f8dba6ffe9f0.jpg"
+                photo: "/img/98c154fd-d050-4718-a8f4-6dff94b66300.jpg"
               },
               {
                 name: "Михаил Волков",
@@ -396,7 +419,7 @@ const Index = () => {
                 education: "СПбГУ, клиническая психология",
                 specialization: "Подростки 13-16 лет",
                 achievements: "Сертификат Harvard Extension School",
-                photo: "/img/269c5737-b114-4dc9-9af5-af8956850c9c.jpg"
+                photo: "/img/47fc2d2b-b20f-444e-85ce-bfdef7813eb2.jpg"
               },
               {
                 name: "Елена Петрова",
@@ -405,7 +428,7 @@ const Index = () => {
                 education: "МГППУ, детская психология",
                 specialization: "Развитие эмпатии и социальных навыков",
                 achievements: "Разработчик авторской методики ЭИ",
-                photo: "/img/3e7499a3-b847-45b1-9f73-2198df7d42af.jpg"
+                photo: "/img/90290757-67c0-4a7a-88ef-2e6101b494c8.jpg"
               }
             ].map((teacher, index) => (
               <Card key={index} className="text-center hover:shadow-lg transition-shadow">
@@ -569,10 +592,12 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
-              <div className="flex items-center space-x-2 mb-6">
-                <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                  <Icon name="Heart" size={20} className="text-primary-foreground" />
-                </div>
+              <div className="flex items-center space-x-3 mb-6">
+                <img 
+                  src="/img/a450c831-cf94-40ea-8bd6-423183c85398.jpg" 
+                  alt="ЭИ ДЕТИ логотип" 
+                  className="w-10 h-10 rounded-full object-cover"
+                />
                 <h3 className="text-xl font-bold">ЭИ ДЕТИ</h3>
               </div>
               <p className="text-background/80 mb-6 max-w-md">
