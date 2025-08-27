@@ -144,6 +144,15 @@ const Index = () => {
               </Card>
             ))}
           </div>
+          <div className="text-center mt-12">
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 max-w-md mx-auto">
+              <h3 className="text-lg font-semibold mb-3">Узнайте больше на пробном уроке!</h3>
+              <Button size="lg" className="w-full">
+                <Icon name="Gift" size={20} className="mr-2" />
+                Записаться бесплатно
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -220,6 +229,16 @@ const Index = () => {
                   <p className="text-sm text-muted-foreground">карьерных провалов связаны с низким ЭИ</p>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="text-center mt-16">
+            <div className="bg-primary/10 rounded-2xl p-8 max-w-2xl mx-auto">
+              <h3 className="text-2xl font-bold mb-4">Готовы начать развивать ЭИ у вашего ребёнка?</h3>
+              <p className="text-muted-foreground mb-6">Попробуйте наш подход на бесплатном пробном уроке</p>
+              <Button size="lg" className="text-lg px-8">
+                <Icon name="Calendar" size={20} className="mr-2" />
+                Записаться на пробный урок
+              </Button>
             </div>
           </div>
         </div>
@@ -313,6 +332,16 @@ const Index = () => {
               </Card>
             ))}
           </div>
+          <div className="text-center mt-12">
+            <div className="bg-white rounded-2xl shadow-lg p-6 max-w-md mx-auto">
+              <h3 className="text-lg font-bold mb-3">Хотите такую же программу?</h3>
+              <p className="text-sm text-muted-foreground mb-4">Начните с бесплатного пробного урока</p>
+              <Button size="lg" className="w-full">
+                <Icon name="ArrowRight" size={20} className="mr-2" />
+                Выбрать программу
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -339,6 +368,16 @@ const Index = () => {
                 <p className="text-muted-foreground">{result.description}</p>
               </div>
             ))}
+          </div>
+          <div className="text-center mt-16">
+            <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl p-8 max-w-2xl mx-auto">
+              <h3 className="text-2xl font-bold mb-4">Впечатляющие результаты!</h3>
+              <p className="text-muted-foreground mb-6">Ваш ребёнок тоже может достичь таких успехов</p>
+              <Button size="lg" className="text-lg px-8">
+                <Icon name="TrendingUp" size={20} className="mr-2" />
+                Начать развитие ЭИ
+              </Button>
+            </div>
           </div>
         </div>
       </section>
@@ -388,6 +427,16 @@ const Index = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+          <div className="text-center mt-12">
+            <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 max-w-lg mx-auto border border-primary/20">
+              <h3 className="text-xl font-bold mb-3">Читайте отзывы наших родителей!</h3>
+              <p className="text-sm text-muted-foreground mb-4">Узнайте, как мы помогли другим семьям</p>
+              <Button variant="outline" size="lg" className="w-full">
+                <Icon name="MessageCircle" size={20} className="mr-2" />
+                Записаться на консультацию
+              </Button>
+            </div>
           </div>
         </div>
       </section>
@@ -496,6 +545,16 @@ const Index = () => {
               </div>
             </div>
           </div>
+          <div className="text-center mt-16">
+            <div className="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-3xl p-8 max-w-2xl mx-auto border border-primary/10">
+              <h3 className="text-2xl font-bold mb-4">Познакомьтесь с нашими экспертами</h3>
+              <p className="text-muted-foreground mb-6">Запишитесь на бесплатную консультацию с нашими специалистами</p>
+              <Button size="lg" className="text-lg px-8">
+                <Icon name="Users" size={20} className="mr-2" />
+                Встретиться с преподавателем
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -530,6 +589,16 @@ const Index = () => {
               <Icon name="MessageCircle" size={24} className="mr-2" />
               Записаться на пробный урок
             </Button>
+          </div>
+          <div className="text-center mt-12">
+            <div className="bg-white rounded-2xl shadow-lg p-6 max-w-md mx-auto">
+              <h3 className="text-lg font-bold mb-3 text-primary">Готовы начать обучение?</h3>
+              <p className="text-sm text-muted-foreground mb-4">Получите бесплатный пробный урок уже сегодня</p>
+              <Button size="lg" className="w-full">
+                <Icon name="Calendar" size={20} className="mr-2" />
+                Записаться сейчас
+              </Button>
+            </div>
           </div>
         </div>
       </section>
