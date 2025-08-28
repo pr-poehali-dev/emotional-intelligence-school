@@ -10,11 +10,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <img 
-              src="/img/a450c831-cf94-40ea-8bd6-423183c85398.jpg" 
-              alt="ЭИ ДЕТИ логотип" 
-              className="w-10 h-10 rounded-full object-cover"
+              src="https://cdn.poehali.dev/files/24909471-9ed8-4eb8-a543-12ad2286d726.jpeg" 
+              alt="Логотип школы ЭИ gemu" 
+              className="w-12 h-12 rounded-full object-cover shadow-md"
             />
-            <h1 className="text-xl font-bold text-primary">ЭИ ДЕТИ</h1>
+            <h1 className="text-xl font-bold text-primary">gemu • ЭИ</h1>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
             <a href="#programs" className="text-foreground hover:text-primary transition-colors">Программы</a>
@@ -663,11 +663,11 @@ const Index = () => {
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center space-x-3 mb-6">
                 <img 
-                  src="/img/a450c831-cf94-40ea-8bd6-423183c85398.jpg" 
-                  alt="ЭИ ДЕТИ логотип" 
-                  className="w-10 h-10 rounded-full object-cover"
+                  src="https://cdn.poehali.dev/files/24909471-9ed8-4eb8-a543-12ad2286d726.jpeg" 
+                  alt="Логотип школы ЭИ gemu" 
+                  className="w-12 h-12 rounded-full object-cover shadow-md"
                 />
-                <h3 className="text-xl font-bold">ЭИ ДЕТИ</h3>
+                <h3 className="text-xl font-bold">gemu • ЭИ</h3>
               </div>
               <p className="text-background/80 mb-6 max-w-md">
                 Онлайн школа развития эмоционального интеллекта для детей от 6 до 16 лет. 
@@ -696,7 +696,27 @@ const Index = () => {
             </div>
             <div>
               <h4 className="font-semibold mb-4">Контакты</h4>
-              <ul className="space-y-2 text-background/80">
+              <ul className="space-y-3 text-background/80">
+                <li className="flex items-center space-x-2">
+                  <Icon name="Phone" size={16} />
+                  <a href="tel:+79123456789" className="hover:text-background transition-colors">+7 (912) 345-67-89</a>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <Icon name="Mail" size={16} />
+                  <a href="mailto:info@gemu-ei.ru" className="hover:text-background transition-colors">info@gemu-ei.ru</a>
+                </li>
+                <li className="flex items-start space-x-2">
+                  <Icon name="MapPin" size={16} className="mt-0.5" />
+                  <div>
+                    <p>г. Москва</p>
+                    <p>ул. Примерная, д. 123</p>
+                    <p>БЦ "Развитие", оф. 45</p>
+                  </div>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <Icon name="Clock" size={16} />
+                  <span>Пн-Пт: 9:00-19:00</span>
+                </li>
                 <li className="flex items-center gap-2">
                   <Icon name="Mail" size={16} />
                   <span>info@eideti.ru</span>
