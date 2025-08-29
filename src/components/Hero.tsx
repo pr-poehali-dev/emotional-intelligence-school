@@ -160,7 +160,7 @@ const Hero = () => {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Что даёт развитие эмоционального интеллекта?</h2>
+            <h2 className="font-bold mb-6 text-2xl">Что даёт развитие эмоционального интеллекта?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Эмоциональный интеллект — это способность понимать и управлять своими эмоциями, 
               а также эффективно взаимодействовать с другими людьми
