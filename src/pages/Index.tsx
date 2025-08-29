@@ -31,7 +31,9 @@ const Index = () => {
             <a href="#blog" className="text-foreground hover:text-primary transition-colors">Блог</a>
             <a href="#contacts" className="text-foreground hover:text-primary transition-colors">Контакты</a>
           </nav>
-          <Button>Получить урок</Button>
+          <Button asChild>
+            <a href="tel:+79123456789">Получить урок</a>
+          </Button>
         </div>
       </header>
 
