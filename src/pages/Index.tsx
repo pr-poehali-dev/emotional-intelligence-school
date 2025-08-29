@@ -47,7 +47,8 @@ const Index = () => {
           <div className="max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground leading-tight">
               Развиваем эмоциональный интеллект детей
-              <span className="text-primary"> от 6 до 16 лет</span>
+              <br />
+              <span className="text-primary">от 6 до 16 лет</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
               Помогаем детям понимать свои эмоции, строить крепкие отношения и уверенно идти к своим целям
