@@ -30,9 +30,11 @@ const Results = () => {
           <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">Впечатляющие результаты!</h3>
             <p className="text-muted-foreground mb-6">Ваш ребёнок тоже может достичь таких успехов</p>
-            <Button size="lg" className="text-lg px-8">
-              <Icon name="TrendingUp" size={20} className="mr-2" />
-              Начать развитие ЭИ
+            <Button size="lg" className="text-lg px-8" asChild>
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">
+                <Icon name="TrendingUp" size={20} className="mr-2" />
+                Начать развитие ЭИ
+              </a>
             </Button>
           </div>
         </div>
