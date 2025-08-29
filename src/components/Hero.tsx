@@ -54,9 +54,14 @@ const Hero = () => {
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 flex items-center justify-center bg-black/20">
-                    <div className="bg-primary/90 backdrop-blur-sm rounded-full p-6 cursor-pointer hover:bg-primary transition-colors">
-                      <Icon name="Play" size={48} className="text-primary-foreground" />
-                    </div>
+                    <video 
+                      controls 
+                      className="w-full h-full rounded-2xl"
+                      poster="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&h=450&fit=crop&crop=center"
+                    >
+                      <source src="/video/emotional-intelligence-demo.mp4" type="video/mp4" />
+                      Ваш браузер не поддерживает воспроизведение видео.
+                    </video>
                   </div>
                 </div>
                 <p className="text-center text-muted-foreground mt-4">
