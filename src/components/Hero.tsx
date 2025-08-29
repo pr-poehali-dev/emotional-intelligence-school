@@ -48,17 +48,14 @@ const Hero = () => {
               <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg">
                 <h3 className="text-2xl font-bold mb-6 text-center">Посмотрите, как проходят наши занятия</h3>
                 <div className="aspect-video rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center relative">
-                  <video 
+                  <img 
+                    src="https://cdn.poehali.dev/files/10cdaae7-36d2-4e85-aeb0-3864d2d07dbd.jpeg"
+                    alt="Дети на занятии развития эмоционального интеллекта"
                     className="w-full h-full object-cover"
-                    controls
-                    poster="/img/video-preview.jpg"
-                  >
-                    <source src="/videos/demo-lesson.mp4" type="video/mp4" />
-                    Ваш браузер не поддерживает видео.
-                  </video>
-                  <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 hover:opacity-100 transition-opacity">
-                    <div className="bg-primary/20 backdrop-blur-sm rounded-full p-6">
-                      <Icon name="Play" size={48} className="text-primary" />
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+                    <div className="bg-primary/90 backdrop-blur-sm rounded-full p-6 cursor-pointer hover:bg-primary transition-colors">
+                      <Icon name="Play" size={48} className="text-primary-foreground" />
                     </div>
                   </div>
                 </div>
