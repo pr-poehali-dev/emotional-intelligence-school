@@ -39,7 +39,7 @@ const Hero = () => {
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto">
                 <Icon name="Play" size={24} className="mr-2" />
-                Посмотреть как это работает
+                Дети с развитым ЭИ добиваются большего успеха и лучше учатся в школе
               </Button>
             </div>
             
