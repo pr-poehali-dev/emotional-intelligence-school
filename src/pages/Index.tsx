@@ -14,7 +14,7 @@ const Index = () => {
               alt="Логотип школы ЭИ gemu" 
               className="w-12 h-12 rounded-full object-cover shadow-md"
             />
-            <h1 className="text-xl font-bold text-primary">gemu • ЭИ</h1>
+            <h1 className="text-xl font-bold text-primary">ЭИ ДЕТИ</h1>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
             <a href="#programs" className="text-foreground hover:text-primary transition-colors">Программы</a>
