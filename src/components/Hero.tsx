@@ -148,9 +148,11 @@ const Hero = () => {
           <div className="text-center mt-12">
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 max-w-md mx-auto">
               <h3 className="text-lg font-semibold mb-3">Узнайте больше на пробном уроке!</h3>
-              <Button size="lg" className="w-full">
-                <Icon name="Gift" size={20} className="mr-2" />
-                Записаться бесплатно
+              <Button size="lg" className="w-full" asChild>
+                <a href="https://wa.me/message/6YQROAKYU6PAC1">
+                  <Icon name="Gift" size={20} className="mr-2" />
+                  Записаться бесплатно
+                </a>
               </Button>
             </div>
           </div>
