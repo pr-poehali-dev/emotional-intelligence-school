@@ -32,7 +32,7 @@ const Index = () => {
             <a href="#contacts" className="text-foreground hover:text-primary transition-colors">Контакты</a>
           </nav>
           <Button asChild>
-            <a href="tel:+79123456789">Получить урок</a>
+            <a href="https://wa.me/message/6YQROAKYU6PAC1">Получить урок</a>
           </Button>
         </div>
       </header>
