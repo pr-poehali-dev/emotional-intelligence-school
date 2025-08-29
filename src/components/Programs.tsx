@@ -69,7 +69,6 @@ const Programs = () => {
                     {program.age}
                   </div>
                   <CardTitle className="text-2xl mb-2">{program.title}</CardTitle>
-                  <CardDescription>{program.duration}</CardDescription>
                 </div>
               </CardHeader>
               <CardContent>
