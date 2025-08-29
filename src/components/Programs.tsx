@@ -73,6 +73,11 @@ const Programs = () => {
               </CardHeader>
               <CardContent>
                 <div className="text-center mb-6">
+                  <img 
+                    src="https://cdn.poehali.dev/files/d2862459-a7d6-4bbb-bf32-369f68bc9191.jpeg" 
+                    alt="Эмоциональный интеллект для детей"
+                    className="w-full h-48 object-cover rounded-lg mb-4"
+                  />
                   <span className="text-3xl font-bold">{program.price}</span>
                 </div>
                 <ul className="space-y-3 mb-6">
