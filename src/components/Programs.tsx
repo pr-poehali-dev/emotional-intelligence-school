@@ -95,9 +95,11 @@ const Programs = () => {
           <div className="bg-white rounded-2xl shadow-lg p-6 max-w-md mx-auto">
             <h3 className="text-lg font-bold mb-3">Хотите такую же программу?</h3>
             <p className="text-sm text-muted-foreground mb-4">Начните с бесплатного пробного урока</p>
-            <Button size="lg" className="w-full">
-              <Icon name="ArrowRight" size={20} className="mr-2" />
-              Выбрать программу
+            <Button size="lg" className="w-full" asChild>
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">
+                <Icon name="ArrowRight" size={20} className="mr-2" />
+                Выбрать программу
+              </a>
             </Button>
           </div>
         </div>
