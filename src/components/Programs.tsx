@@ -65,10 +65,10 @@ const Programs = () => {
               )}
               <CardHeader>
                 <div className="text-center">
-                  <div className="inline-block bg-primary/20 text-primary px-3 py-1 rounded-full text-sm font-medium mb-4">
+                  <CardTitle className="text-2xl mb-4">{program.title}</CardTitle>
+                  <div className="inline-block bg-primary/20 text-primary px-3 py-1 rounded-full text-sm font-medium">
                     {program.age}
                   </div>
-                  <CardTitle className="text-2xl mb-2">{program.title}</CardTitle>
                 </div>
               </CardHeader>
               <CardContent>
