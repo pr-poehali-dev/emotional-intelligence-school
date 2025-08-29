@@ -8,13 +8,21 @@ const Index = () => {
       {/* Header */}
       <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center space-x-3">
-            <img 
-              src="https://cdn.poehali.dev/files/24909471-9ed8-4eb8-a543-12ad2286d726.jpeg" 
-              alt="Логотип школы ЭИ gemu" 
-              className="w-12 h-12 rounded-full object-cover shadow-md"
-            />
-            <h1 className="text-xl font-bold text-primary">ЭИ ДЕТИ</h1>
+          <div className="flex items-center space-x-6">
+            <div className="flex items-center space-x-3">
+              <img 
+                src="https://cdn.poehali.dev/files/24909471-9ed8-4eb8-a543-12ad2286d726.jpeg" 
+                alt="Логотип школы ЭИ gemu" 
+                className="w-12 h-12 rounded-full object-cover shadow-md"
+              />
+              <h1 className="text-xl font-bold text-primary">ЭИ ДЕТИ</h1>
+            </div>
+            <div className="hidden lg:block text-sm text-muted-foreground">
+              <div className="flex items-center space-x-1">
+                <Icon name="MapPin" size={14} />
+                <span>г. Москва, ул. Примерная, д. 123</span>
+              </div>
+            </div>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
             <a href="#programs" className="text-foreground hover:text-primary transition-colors">Программы</a>
