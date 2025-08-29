@@ -49,20 +49,10 @@ const Hero = () => {
                 <h3 className="text-2xl font-bold mb-6 text-center">Посмотрите, как проходят наши занятия</h3>
                 <div className="aspect-video rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center relative">
                   <img 
-                    src="https://cdn.poehali.dev/files/10cdaae7-36d2-4e85-aeb0-3864d2d07dbd.jpeg"
+                    src="https://cdn.poehali.dev/files/5b18cf19-69e0-4520-ae86-41e23f4446ef.jpeg"
                     alt="Дети на занятии развития эмоционального интеллекта"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/20">
-                    <video 
-                      controls 
-                      className="w-full h-full rounded-2xl"
-                      poster="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&h=450&fit=crop&crop=center"
-                    >
-                      <source src="/video/emotional-intelligence-demo.mp4" type="video/mp4" />
-                      Ваш браузер не поддерживает воспроизведение видео.
-                    </video>
-                  </div>
                 </div>
                 <p className="text-center text-muted-foreground mt-4">
                   Демонстрация урока по развитию эмоционального интеллекта для детей 8-10 лет
