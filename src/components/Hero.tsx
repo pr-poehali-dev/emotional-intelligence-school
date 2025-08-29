@@ -238,9 +238,11 @@ const Hero = () => {
             <div className="bg-primary/10 rounded-2xl p-8 max-w-2xl mx-auto">
               <h3 className="text-2xl font-bold mb-4">Готовы начать развивать ЭИ у вашего ребёнка?</h3>
               <p className="text-muted-foreground mb-6">Попробуйте наш подход на бесплатном пробном уроке</p>
-              <Button size="lg" className="text-lg px-8">
-                <Icon name="Calendar" size={20} className="mr-2" />
-                Записаться на пробный урок
+              <Button size="lg" className="text-lg px-8" asChild>
+                <a href="https://wa.me/message/6YQROAKYU6PAC1">
+                  <Icon name="Calendar" size={20} className="mr-2" />
+                  Записаться на пробный урок
+                </a>
               </Button>
             </div>
           </div>
