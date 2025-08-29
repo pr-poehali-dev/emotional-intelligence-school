@@ -15,7 +15,12 @@ const Index = () => {
                 alt="Логотип школы ЭИ gemu" 
                 className="w-12 h-12 rounded-full object-cover shadow-md"
               />
-              <h1 className="text-xl font-bold text-primary">ЭИ ДЕТИ</h1>
+              <div>
+                <h1 className="text-xl font-bold text-primary">ЭИ ДЕТИ</h1>
+                <div className="text-xs text-muted-foreground">
+                  Адрес: г. Владивосток. Тел: 8 964 444 8177
+                </div>
+              </div>
             </div>
             <div className="hidden lg:block text-sm text-muted-foreground">
               <div className="flex items-center space-x-1">
