@@ -40,6 +40,31 @@ const Hero = () => {
                 Посмотреть как это работает
               </Button>
             </div>
+            
+            {/* Video Section */}
+            <div className="mb-12 max-w-4xl mx-auto">
+              <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg">
+                <h3 className="text-2xl font-bold mb-6 text-center">Посмотрите, как проходят наши занятия</h3>
+                <div className="aspect-video rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center relative">
+                  <video 
+                    className="w-full h-full object-cover"
+                    controls
+                    poster="/img/video-preview.jpg"
+                  >
+                    <source src="/videos/demo-lesson.mp4" type="video/mp4" />
+                    Ваш браузер не поддерживает видео.
+                  </video>
+                  <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 hover:opacity-100 transition-opacity">
+                    <div className="bg-primary/20 backdrop-blur-sm rounded-full p-6">
+                      <Icon name="Play" size={48} className="text-primary" />
+                    </div>
+                  </div>
+                </div>
+                <p className="text-center text-muted-foreground mt-4">
+                  Демонстрация урока по развитию эмоционального интеллекта для детей 8-10 лет
+                </p>
+              </div>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 text-center">
                 <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
