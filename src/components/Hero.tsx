@@ -8,8 +8,8 @@ const Hero = () => {
       <section className="bg-gradient-to-br from-primary/10 via-secondary/20 to-accent/10 py-20 relative overflow-hidden">
         <div className="absolute top-10 right-10 w-48 h-48 rounded-full overflow-hidden opacity-20 hidden lg:block">
           <img 
-            src="/img/921f73ef-38af-466b-bfcb-9a2ca61df4f7.jpg" 
-            alt="Счастливая семья" 
+            src="https://cdn.poehali.dev/files/2efebe2e-25da-43c2-9774-207638c0b7af.jpeg" 
+            alt="Эмоции - это суперсила. Развиваем эмоциональный интеллект" 
             className="w-full h-full object-cover"
           />
         </div>
