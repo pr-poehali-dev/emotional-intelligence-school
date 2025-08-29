@@ -45,7 +45,7 @@ const Index = () => {
         </div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground leading-tight">
+            <h1 className="md:text-6xl font-bold mb-6 text-foreground leading-tight text-3xl">
               Развиваем эмоциональный интеллект детей
               <br />
               <span className="text-primary">от 6 до 16 лет</span>
