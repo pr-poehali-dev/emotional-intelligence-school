@@ -50,14 +50,7 @@ const Footer = () => {
                 <Icon name="Mail" size={16} />
                 <a href="mailto:info@gemu-ei.ru" className="hover:text-background transition-colors">info@gemu-ei.ru</a>
               </li>
-              <li className="flex items-start space-x-2">
-                <Icon name="MapPin" size={16} className="mt-0.5" />
-                <div>
-                  <p>г. Москва</p>
-                  <p>ул. Примерная, д. 123</p>
-                  <p>БЦ "Развитие", оф. 45</p>
-                </div>
-              </li>
+
               <li className="flex items-center space-x-2">
                 <Icon name="Clock" size={16} />
                 <span>Пн-Пт: 9:00-19:00</span>
