@@ -12,7 +12,7 @@ const Footer = () => {
                 alt="Логотип школы ЭИ gemu" 
                 className="w-12 h-12 rounded-full object-cover shadow-md"
               />
-              <h3 className="text-xl font-bold">gemu • ЭИ</h3>
+              <h3 className="text-xl font-bold">ЭИ • gemu</h3>
             </div>
             <p className="text-background/80 mb-6 max-w-md">
               Онлайн школа развития эмоционального интеллекта для детей от 6 до 16 лет. 
