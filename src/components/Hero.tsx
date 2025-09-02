@@ -229,6 +229,44 @@ const Hero = () => {
                 </div>
               </div>
             </div>
+            <div className="mt-12">
+              <h3 className="text-2xl font-bold mb-6 text-center">Наши специалисты</h3>
+              <div className="space-y-6">
+                <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
+                  <img 
+                    src="/img/48be6c73-1eec-4c10-86ee-8341982a8f01.jpg" 
+                    alt="Детский психолог" 
+                    className="w-16 h-16 rounded-full object-cover"
+                  />
+                  <div>
+                    <h4 className="font-semibold">Анна Петрова</h4>
+                    <p className="text-sm text-muted-foreground">Детский психолог, 8 лет опыта</p>
+                  </div>
+                </div>
+                <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
+                  <img 
+                    src="/img/2a5b7814-3d84-4c57-a344-6c9dedf94331.jpg" 
+                    alt="Детский терапевт" 
+                    className="w-16 h-16 rounded-full object-cover"
+                  />
+                  <div>
+                    <h4 className="font-semibold">Михаил Соколов</h4>
+                    <p className="text-sm text-muted-foreground">Детский терапевт, 6 лет опыта</p>
+                  </div>
+                </div>
+                <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
+                  <img 
+                    src="/img/fda3a071-f244-455b-8419-284524e9abea.jpg" 
+                    alt="Педагог-психолог" 
+                    className="w-16 h-16 rounded-full object-cover"
+                  />
+                  <div>
+                    <h4 className="font-semibold">Елена Васильева</h4>
+                    <p className="text-sm text-muted-foreground">Педагог-психолог, 10 лет опыта</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="text-center mt-16">
             <div className="bg-primary/10 rounded-2xl p-8 max-w-2xl mx-auto">
