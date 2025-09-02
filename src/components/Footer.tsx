@@ -47,13 +47,8 @@ const Footer = () => {
                 <a href="tel:+79644448177" className="hover:text-background transition-colors">8 964 444 81 77</a>
               </li>
               <li className="flex items-center space-x-2">
-                <Icon name="Mail" size={16} />
-                <a href="mailto:info@gemu-ei.ru" className="hover:text-background transition-colors">info@gemu-ei.ru</a>
-              </li>
-
-              <li className="flex items-center space-x-2">
-                <Icon name="Clock" size={16} />
-                <span>Пн-Пт: 9:00-19:00</span>
+                <Icon name="MapPin" size={16} />
+                <span>г. Владивосток</span>
               </li>
               <li className="flex items-center gap-2">
                 <Icon name="Mail" size={16} />
