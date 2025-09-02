@@ -158,8 +158,8 @@ const Hero = () => {
             <div>
               <div className="mb-8">
                 <img 
-                  src="/img/a132faa8-6625-4ef6-8eb1-0d354a5a7470.jpg" 
-                  alt="Родитель и ребенок общаются" 
+                  src="/img/6a638921-e850-4d1d-b5b2-4a37f820752a.jpg" 
+                  alt="Дружная семья - мама обнимает папу, девочка 13 лет и мальчик 7 лет обнимают родителей" 
                   className="w-full h-64 object-cover rounded-2xl shadow-lg"
                 />
               </div>
