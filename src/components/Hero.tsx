@@ -42,17 +42,30 @@ const Hero = () => {
             {/* Video Section */}
             <div className="mb-12 max-w-4xl mx-auto">
               <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg">
-                <h3 className="text-2xl font-bold mb-6 text-center">Посмотрите, как проходят наши занятия</h3>
-                <div className="aspect-video rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center relative">
-                  <img 
-                    src="https://cdn.poehali.dev/files/5b18cf19-69e0-4520-ae86-41e23f4446ef.jpeg"
-                    alt="Дети на занятии развития эмоционального интеллекта"
-                    className="w-full h-full object-cover"
-                  />
+                <h3 className="text-2xl font-bold mb-6 text-center">Наши занятия</h3>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="rounded-2xl overflow-hidden">
+                    <img 
+                      src="https://cdn.poehali.dev/files/35750b48-9357-4140-9f9f-cca7c225b815.jpeg"
+                      alt="Дети играют с развивающими игрушками"
+                      className="w-full h-48 object-cover"
+                    />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden">
+                    <img 
+                      src="https://cdn.poehali.dev/files/65ed2f2f-21f3-4722-8ef2-336bd9e79242.jpeg"
+                      alt="Дети изучают эмоции в игровой форме"
+                      className="w-full h-48 object-cover"
+                    />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden">
+                    <img 
+                      src="https://cdn.poehali.dev/files/de799000-fd3c-4aeb-808b-18f4e399e43a.jpeg"
+                      alt="Групповые занятия с детьми"
+                      className="w-full h-48 object-cover"
+                    />
+                  </div>
                 </div>
-                <p className="text-center text-muted-foreground mt-4">
-                  Демонстрация урока по развитию эмоционального интеллекта для детей 8-10 лет
-                </p>
               </div>
             </div>
             <div className="max-w-4xl mx-auto">
