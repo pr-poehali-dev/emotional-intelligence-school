@@ -131,14 +131,25 @@ const Hero = () => {
             ))}
           </div>
           <div className="text-center mt-12">
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 max-w-md mx-auto">
-              <h3 className="text-lg font-semibold mb-3">Узнайте больше на пробном уроке!</h3>
-              <Button size="lg" className="w-full" asChild>
-                <a href="https://wa.me/message/6YQROAKYU6PAC1">
-                  <Icon name="Gift" size={20} className="mr-2" />
-                  Записаться бесплатно
-                </a>
-              </Button>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6">
+                <h3 className="text-lg font-semibold mb-3">Узнайте больше на пробном уроке!</h3>
+                <Button size="lg" className="w-full" asChild>
+                  <a href="https://wa.me/message/6YQROAKYU6PAC1">
+                    <Icon name="Gift" size={20} className="mr-2" />
+                    Записаться бесплатно
+                  </a>
+                </Button>
+              </div>
+              <div className="bg-primary/10 backdrop-blur-sm rounded-2xl p-6">
+                <h3 className="text-lg font-semibold mb-3">Присоединяйтесь к нашему сообществу</h3>
+                <Button variant="outline" size="lg" className="w-full" asChild>
+                  <a href="https://t.me/+QgiLIa1gFRY4Y2Iy" target="_blank" rel="noopener noreferrer">
+                    <Icon name="MessageCircle" size={20} className="mr-2" />
+                    Telegram канал
+                  </a>
+                </Button>
+              </div>
             </div>
           </div>
         </div>
