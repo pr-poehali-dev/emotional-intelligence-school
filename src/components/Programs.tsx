@@ -42,7 +42,7 @@ const Programs = () => {
               popular: true
             },
             {
-              age: "14-16 лет",
+              age: "13-16 лет",
               title: "Лидерские качества",
               duration: "6 месяцев",
               price: "5 999 ₽/мес",
