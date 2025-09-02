@@ -261,7 +261,7 @@ const Hero = () => {
                     className="w-16 h-16 rounded-full object-cover"
                   />
                   <div>
-                    <h4 className="font-semibold">научный консультант «ЭИ ДЕТИ»</h4>
+                    <h4 className="font-semibold">ДЭВИД КАРУЗО — научный консультант «ЭИ ДЕТИ»</h4>
                     <p className="text-sm text-muted-foreground">Профессор, исследователь центра развития эмоционального интеллекта Йельского университета, Ph.D., со-основатель научной теории эмоционального интеллекта</p>
                   </div>
                 </div>
