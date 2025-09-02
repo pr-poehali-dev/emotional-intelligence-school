@@ -141,9 +141,9 @@ const Hero = () => {
                   </a>
                 </Button>
               </div>
-              <div className="bg-primary/10 backdrop-blur-sm rounded-2xl p-6">
-                <h3 className="text-lg font-semibold mb-3">Присоединяйтесь к нашему сообществу</h3>
-                <Button variant="outline" size="lg" className="w-full" asChild>
+              <div className="bg-blue-500 backdrop-blur-sm rounded-2xl p-6">
+                <h3 className="text-lg font-semibold mb-3 text-white">Присоединяйтесь к нашему сообществу</h3>
+                <Button variant="secondary" size="lg" className="w-full bg-white text-blue-500 hover:bg-gray-100" asChild>
                   <a href="https://t.me/eideti_vladivostok" target="_blank" rel="noopener noreferrer">
                     <Icon name="MessageCircle" size={20} className="mr-2" />
                     Telegram канал
