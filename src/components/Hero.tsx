@@ -245,13 +245,14 @@ const Hero = () => {
               <div className="space-y-6">
                 <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
                   <img 
-                    src="https://cdn.poehali.dev/files/370ee7b6-afbd-4468-9fb4-acdd147239f7.jpeg" 
-                    alt="Детский психолог" 
+                    src="https://cdn.poehali.dev/files/d1b6a6a7-da6a-46e9-a144-405c727d83db.jpeg" 
+                    alt="Давиде Антоньяцца" 
                     className="w-16 h-16 rounded-full object-cover"
                   />
                   <div>
-                    <h4 className="font-semibold">Анна Петрова</h4>
-                    <p className="text-sm text-muted-foreground">Детский психолог, 8 лет опыта</p>
+                    <h4 className="font-semibold">ДАВИДЕ АНТОНЬЯЦЦА</h4>
+                    <p className="text-sm text-muted-foreground mb-1">научный консультант «ЭИ ДЕТИ»</p>
+                    <p className="text-sm text-muted-foreground">Профессор Университета прикладных наук Швейцарии, M.Ed., мировой эксперт в области детского эмоционального интеллекта</p>
                   </div>
                 </div>
                 <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
