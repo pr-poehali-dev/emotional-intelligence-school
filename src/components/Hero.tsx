@@ -256,8 +256,8 @@ const Hero = () => {
                 </div>
                 <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
                   <img 
-                    src="/img/2a5b7814-3d84-4c57-a344-6c9dedf94331.jpg" 
-                    alt="Детский терапевт" 
+                    src="https://cdn.poehali.dev/files/f7e93928-e321-4f5e-9a3d-3c5a43759d30.png" 
+                    alt="Дэвид Карузо" 
                     className="w-16 h-16 rounded-full object-cover"
                   />
                   <div>
