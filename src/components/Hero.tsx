@@ -158,8 +158,8 @@ const Hero = () => {
             <div>
               <div className="mb-8">
                 <img 
-                  src="https://cdn.poehali.dev/files/6ff0e244-ba09-437e-a337-7136a53caba9.jpeg" 
-                  alt="Руки детей и взрослых в знак единства и поддержки" 
+                  src="https://cdn.poehali.dev/files/d33645cc-2dd2-4c02-a7e6-09028121d9c5.jpeg" 
+                  alt="Семейные руки держат буквы FAMILY - символ единства и семейных ценностей" 
                   className="w-full h-64 object-cover rounded-2xl shadow-lg"
                 />
               </div>
