@@ -59,28 +59,12 @@ const Hero = () => {
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
-              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 text-center">
-                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Users" size={24} className="text-primary" />
-                </div>
-                <h3 className="font-semibold text-lg mb-2">2000+ семей</h3>
-                <p className="text-muted-foreground text-sm">уже развивают ЭИ с нами</p>
-              </div>
-              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 text-center">
-                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Award" size={24} className="text-primary" />
-                </div>
-                <h3 className="font-semibold text-lg mb-2">5 лет опыта</h3>
-                <p className="text-muted-foreground text-sm">в детской психологии</p>
-              </div>
-              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 text-center">
-                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Target" size={24} className="text-primary" />
-                </div>
-                <h3 className="font-semibold text-lg mb-2">95% результат</h3>
-                <p className="text-muted-foreground text-sm">видимые изменения за месяц</p>
-              </div>
+            <div className="max-w-4xl mx-auto">
+              <img 
+                src="https://cdn.poehali.dev/files/62c9b32b-4a60-45ca-8977-b9a891e00188.jpeg" 
+                alt="Эмоции - это суперсила. Развиваем ключевой навык XXI века — эмоциональный интеллект" 
+                className="w-full h-auto rounded-2xl shadow-lg"
+              />
             </div>
           </div>
         </div>
