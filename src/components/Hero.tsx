@@ -245,7 +245,7 @@ const Hero = () => {
               <div className="space-y-6">
                 <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
                   <img 
-                    src="/img/48be6c73-1eec-4c10-86ee-8341982a8f01.jpg" 
+                    src="https://cdn.poehali.dev/files/370ee7b6-afbd-4468-9fb4-acdd147239f7.jpeg" 
                     alt="Детский психолог" 
                     className="w-16 h-16 rounded-full object-cover"
                   />
