@@ -30,16 +30,12 @@ const Hero = () => {
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
               Помогаем детям понимать свои эмоции, строить крепкие отношения и уверенно идти к своим целям
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+            <div className="flex justify-center mb-12">
               <Button size="lg" className="text-lg px-8 py-6 h-auto" asChild>
                 <a href="https://wa.me/message/6YQROAKYU6PAC1">
                   <Icon name="Gift" size={24} className="mr-2" />
                   Получить бесплатный пробный урок
                 </a>
-              </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6 h-auto">
-                <Icon name="Play" size={24} className="mr-2" />
-                Дети с развитым ЭИ добиваются большего успеха и лучше учатся в школе
               </Button>
             </div>
             
