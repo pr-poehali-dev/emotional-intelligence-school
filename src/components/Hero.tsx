@@ -230,7 +230,18 @@ const Hero = () => {
               </div>
             </div>
             <div className="mt-12">
-              <h3 className="text-2xl font-bold mb-6 text-center">Наши специалисты</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center text-red-600">Мощная научная методика</h3>
+              <div className="bg-white/80 rounded-xl p-6 mb-6">
+                <h4 className="text-lg font-semibold mb-4">Научный подход - наш ДНК</h4>
+                <p className="text-muted-foreground mb-4">
+                  Мы сотрудничаем с ведущими учеными мира в области ЭИ, используем только лучшие мировые практики, доказавшие свою эффективность.
+                </p>
+                <div className="bg-primary/10 rounded-lg p-4">
+                  <p className="font-semibold mb-2">«ЭИ ДЕТИ» - спикеры самого авторитетного мероприятия по ЭИ в мире</p>
+                  <p className="text-sm text-muted-foreground">Международный Конгресс ICEI (Австралия, 2019)</p>
+                </div>
+              </div>
+              <h4 className="text-xl font-bold mb-6 text-center">Наши специалисты</h4>
               <div className="space-y-6">
                 <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
                   <img 
