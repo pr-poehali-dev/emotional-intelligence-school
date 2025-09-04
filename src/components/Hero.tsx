@@ -290,6 +290,17 @@ const Hero = () => {
                     <p className="text-sm text-muted-foreground">Официальный представитель Европейской Ассоциации культурных и эмоционально-интеллектуальных проектов, кандидат психологических наук.</p>
                   </div>
                 </div>
+                <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
+                  <img 
+                    src="https://cdn.poehali.dev/files/e4c74629-1801-4af4-bccd-dd7f7a6fd9d9.jpeg" 
+                    alt="Лия Недашковская" 
+                    className="w-16 h-16 rounded-full object-cover"
+                  />
+                  <div>
+                    <h4 className="font-semibold">Лия Недашковская</h4>
+                    <p className="text-sm text-muted-foreground">Психолог, преподаватель, специалист по развитию ЭИ, руководитель проекта в г.Владивосток</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
