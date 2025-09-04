@@ -15,7 +15,8 @@ const Header = () => {
             <div>
               <h1 className="text-xl font-bold text-primary">ЭИ ДЕТИ</h1>
               <div className="text-xs text-muted-foreground">
-                Адрес: г. Владивосток. Тел: 8 964 444 8177
+                <div>Адрес: г. Владивосток</div>
+                <div>Тел: 8 964 444 8177</div>
               </div>
             </div>
           </div>
