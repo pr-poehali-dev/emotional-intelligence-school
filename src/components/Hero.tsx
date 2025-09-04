@@ -297,7 +297,7 @@ const Hero = () => {
                     className="w-16 h-16 rounded-full object-cover"
                   />
                   <div>
-                    <h4 className="font-semibold">Лия Недашковская</h4>
+                    <h4 className="font-semibold">ЛИЯ НЕДАШКОВСКАЯ</h4>
                     <p className="text-sm text-muted-foreground">Психолог, преподаватель, специалист по развитию ЭИ, руководитель проекта в г.Владивосток</p>
                   </div>
                 </div>
