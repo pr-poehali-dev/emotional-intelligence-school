@@ -276,7 +276,18 @@ const Hero = () => {
                     <h4 className="font-semibold">Е.А.СЕРГИЕНКО</h4>
                     <p className="text-sm text-muted-foreground mb-1">научный консультант «ЭИ ДЕТИ»</p>
                     <p className="text-sm text-muted-foreground">Профессор, главный научный сотрудник Института Психологии Российской Академии Наук, доктор психологических наук</p>
-                    <p className="text-sm text-muted-foreground">Педагог-психолог, 10 лет опыта</p>
+                  </div>
+                </div>
+                <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
+                  <img 
+                    src="https://cdn.poehali.dev/files/dc6cb549-c546-4a3f-a70e-59a32a7975b3.jpeg" 
+                    alt="Елена Хлевная" 
+                    className="w-16 h-16 rounded-full object-cover"
+                  />
+                  <div>
+                    <h4 className="font-semibold">ЕЛЕНА ХЛЕВНАЯ</h4>
+                    <p className="text-sm text-muted-foreground mb-1">научный руководитель «ЭИ ДЕТИ»</p>
+                    <p className="text-sm text-muted-foreground">Официальный представитель Европейской Ассоциации культурных и эмоционально-интеллектуальных проектов, кандидат психологических наук.</p>
                   </div>
                 </div>
               </div>
