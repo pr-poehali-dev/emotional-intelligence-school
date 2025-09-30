@@ -40,7 +40,7 @@ const Hero = () => {
             {/* Video Section */}
             <div className="mb-12 max-w-4xl mx-auto">
               <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg">
-                <h3 className="text-2xl font-bold mb-6 text-center">Наши занятия</h3>
+                <h3 className="text-xl md:text-2xl font-semibold mb-6 text-center">Наши занятия</h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="rounded-2xl overflow-hidden">
                     <img 
