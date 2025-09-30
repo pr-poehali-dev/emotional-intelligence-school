@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
-            <h1 className="md:text-6xl font-bold mb-6 text-foreground leading-tight text-3xl">
+            <h1 className="text-2xl md:text-4xl font-semibold mb-6 text-foreground leading-relaxed">
               Развитие эмоционального интеллекта для детей от 5-16 лет
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
