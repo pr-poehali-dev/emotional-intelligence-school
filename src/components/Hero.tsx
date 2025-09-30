@@ -81,7 +81,7 @@ const Hero = () => {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Знакомые ситуации?</h2>
+            <h2 className="text-2xl md:text-3xl font-semibold mb-6">Знакомые ситуации?</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Многие родители сталкиваются с похожими вызовами в воспитании детей
             </p>
@@ -123,7 +123,7 @@ const Hero = () => {
                 <div className="w-12 h-12 bg-destructive/20 rounded-full flex items-center justify-center mb-4">
                   <Icon name={problem.icon} size={24} className="text-destructive" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">{problem.title}</h3>
+                <h3 className="text-lg font-semibold mb-3">{problem.title}</h3>
                 <p className="text-muted-foreground">{problem.description}</p>
               </div>
             ))}
@@ -157,7 +157,7 @@ const Hero = () => {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="font-bold mb-6 text-2xl">Что даёт развитие эмоционального интеллекта?</h2>
+            <h2 className="text-2xl md:text-3xl font-semibold mb-6">Что даёт развитие эмоционального интеллекта?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Эмоциональный интеллект — это способность понимать и управлять своими эмоциями, 
               а также эффективно взаимодействовать с другими людьми
@@ -200,7 +200,7 @@ const Hero = () => {
                       <Icon name={benefit.icon} size={24} className="text-primary" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold mb-2">{benefit.title}</h3>
+                      <h3 className="text-lg font-semibold mb-2">{benefit.title}</h3>
                       <p className="text-muted-foreground">{benefit.description}</p>
                     </div>
                   </div>
@@ -211,7 +211,7 @@ const Hero = () => {
               <div className="w-24 h-24 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
                 <Icon name="Lightbulb" size={48} className="text-primary-foreground" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Научные факты</h3>
+              <h3 className="text-xl md:text-2xl font-semibold mb-4">Научные факты</h3>
               <div className="space-y-4">
                 <div className="bg-white/80 rounded-xl p-4">
                   <p className="text-3xl font-bold text-primary mb-1">90%</p>
@@ -228,7 +228,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="mt-12">
-              <h3 className="text-2xl font-bold mb-6 text-center text-red-600">Мощная научная методика</h3>
+              <h3 className="text-xl md:text-2xl font-semibold mb-6 text-center text-red-600">Мощная научная методика</h3>
               <div className="bg-white/80 rounded-xl p-6 mb-6">
                 <h4 className="text-lg font-semibold mb-4">Научный подход - наш ДНК</h4>
                 <p className="text-muted-foreground mb-4">
@@ -239,7 +239,7 @@ const Hero = () => {
                   <p className="text-sm text-muted-foreground">Международный Конгресс ICEI (Австралия, 2019)</p>
                 </div>
               </div>
-              <h4 className="text-xl font-bold mb-6 text-center">Наши специалисты</h4>
+              <h4 className="text-lg md:text-xl font-semibold mb-6 text-center">Наши специалисты</h4>
               <div className="space-y-6">
                 <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
                   <img 
@@ -304,7 +304,7 @@ const Hero = () => {
           </div>
           <div className="text-center mt-16">
             <div className="bg-primary/10 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Готовы начать развивать ЭИ у вашего ребёнка?</h3>
+              <h3 className="text-xl md:text-2xl font-semibold mb-4">Готовы начать развивать ЭИ у вашего ребёнка?</h3>
               <p className="text-muted-foreground mb-6">Попробуйте наш подход на бесплатном пробном уроке</p>
               <Button size="lg" className="text-lg px-8" asChild>
                 <a href="https://wa.me/message/6YQROAKYU6PAC1">
