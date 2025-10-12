@@ -14,10 +14,13 @@ const Header = () => {
             alt="Логотип ЭИ ДЕТИ" 
             className="w-16 h-16 rounded-full object-cover"
           />
-          <div className="hidden md:block text-orange-500 font-medium leading-tight">
-            <div>г.Владивосток</div>
-            <div>ул.Русская 17</div>
-            <div>каб.804/3</div>
+          <div className="hidden md:block">
+            <div className="text-xs text-gray-600 mb-1">МЕЖДУНАРОДНАЯ ШКОЛА РАЗВИТИЯ ЭМОЦИОНАЛЬНОГО ИНТЕЛЛЕКТА ДЛЯ ДЕТЕЙ</div>
+            <div className="text-orange-500 font-medium leading-tight">
+              <div>г.Владивосток</div>
+              <div>ул.Русская 17</div>
+              <div>каб.804/3</div>
+            </div>
           </div>
         </div>
         
