@@ -5,6 +5,7 @@ import Icon from '@/components/ui/icon';
 const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isProgramModalOpen, setIsProgramModalOpen] = useState(false);
+  const [isProgram2ModalOpen, setIsProgram2ModalOpen] = useState(false);
   return (
     <>
       <section className="relative min-h-screen bg-gray-100 overflow-hidden">
@@ -309,13 +310,16 @@ const Hero = () => {
             </div>
 
             <div className="relative w-full max-w-[16rem]">
-              <div className="bg-purple-600 p-6 text-white text-center flex flex-col justify-center items-center transform transition-transform hover:scale-105" 
-                   style={{borderRadius: '30% 70% 70% 30% / 30% 30% 70% 70%', aspectRatio: '1.2/1'}}>
+              <button
+                onClick={() => setIsProgram2ModalOpen(true)}
+                className="w-full bg-purple-600 p-6 text-white text-center flex flex-col justify-center items-center transform transition-transform hover:scale-105 cursor-pointer" 
+                style={{borderRadius: '30% 70% 70% 30% / 30% 30% 70% 70%', aspectRatio: '1.2/1'}}
+              >
                 <h3 className="text-xl md:text-2xl font-light mb-2">7–10 ЛЕТ</h3>
                 <p className="text-sm md:text-base">
                   Развиваем эмоциональный интеллект
                 </p>
-              </div>
+              </button>
             </div>
 
             <div className="relative w-full max-w-[14rem]">
@@ -413,6 +417,55 @@ const Hero = () => {
               <h3 className="text-2xl font-light mt-8 mb-4">Дневник эмоций</h3>
               <p className="text-gray-700 leading-relaxed">
                 Всем родителям мы рекомендуем ежедневно вести с ребенком «Дневник эмоций» и самостоятельно «Дневник наблюдений родителя». Во время работы с Дневниками вы будете анализировать эмоции и объяснять их причины, придумывать способы решения сложных ситуаций. Ребенок каждый день записывает и рисует эмоции, которые у него возникли в течение дня — это позволяет ему обращать внимание на свои эмоции и связывать их с определенными событиями. Подобное подведение «эмоционального итога дня» не только тренирует эмоциональный интеллект ребенка, но и повышает уверенность в себе.
+              </p>
+
+              <div className="flex justify-center mt-8">
+                <Button 
+                  className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
+                  asChild
+                >
+                  <a href="https://wa.me/message/6YQROAKYU6PAC1">Записаться на программу</a>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {isProgram2ModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4" onClick={() => setIsProgram2ModalOpen(false)}>
+          <div className="bg-white rounded-3xl max-w-4xl max-h-[90vh] overflow-y-auto p-8 relative" onClick={(e) => e.stopPropagation()}>
+            <button
+              onClick={() => setIsProgram2ModalOpen(false)}
+              className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
+            >
+              <Icon name="X" size={24} />
+            </button>
+            
+            <div className="prose prose-lg max-w-none">
+              <div className="text-center mb-8">
+                <p className="text-xl text-gray-700 leading-relaxed">
+                  Узнаем, как использовать свои эмоции в различных ситуациях, развиваем навыки общения, учимся находить общий язык со сверстниками и взрослыми
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-8 my-12 text-center">
+                <div>
+                  <div className="text-5xl font-light mb-2">8</div>
+                  <p className="text-sm">человек в группе</p>
+                </div>
+                <div>
+                  <div className="text-5xl font-light mb-2">60</div>
+                  <p className="text-sm">минут длится одно занятие</p>
+                </div>
+                <div>
+                  <div className="text-5xl font-light mb-2">1</div>
+                  <p className="text-sm">раз в неделю</p>
+                </div>
+              </div>
+
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Занятия для детей 7-9 лет разработаны с учётом лучшего российского научно-практического опыта и опыта 20 стран, которые внедрили эмоциональный интеллект в свою систему школьного образования: США, Канады, Швейцарии, Италии, Испании и др. Используя инструменты и методики, доказавшие эффективность на мировом опыте, мы гарантируем прогресс в эмоционально-интеллектуальной сфере ребёнка в центрах «ЭИ дети».
               </p>
 
               <div className="flex justify-center mt-8">
