@@ -6,6 +6,7 @@ const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isProgramModalOpen, setIsProgramModalOpen] = useState(false);
   const [isProgram2ModalOpen, setIsProgram2ModalOpen] = useState(false);
+  const [isProgram3ModalOpen, setIsProgram3ModalOpen] = useState(false);
   return (
     <>
       <section className="relative min-h-screen bg-gray-100 overflow-hidden">
@@ -323,13 +324,16 @@ const Hero = () => {
             </div>
 
             <div className="relative w-full max-w-[14rem]">
-              <div className="bg-yellow-400 p-6 text-gray-900 text-center flex flex-col justify-center items-center transform transition-transform hover:scale-105" 
-                   style={{borderRadius: '30% 70% 40% 60% / 50% 50% 50% 50%', aspectRatio: '1/1'}}>
+              <button
+                onClick={() => setIsProgram3ModalOpen(true)}
+                className="w-full bg-yellow-400 p-6 text-gray-900 text-center flex flex-col justify-center items-center transform transition-transform hover:scale-105 cursor-pointer" 
+                style={{borderRadius: '30% 70% 40% 60% / 50% 50% 50% 50%', aspectRatio: '1/1'}}
+              >
                 <h3 className="text-xl md:text-2xl font-light mb-2">11–15 ЛЕТ</h3>
                 <p className="text-sm md:text-base">
                   Эмоциональное лидерство
                 </p>
-              </div>
+              </button>
             </div>
           </div>
 
@@ -500,6 +504,86 @@ const Hero = () => {
                 <li>Можем адекватно реагировать на поведение других, адаптироваться в незнакомой ситуации</li>
                 <li>Умеем справляться со стрессом</li>
                 <li>Умеем находить решение конфликтной ситуации</li>
+              </ul>
+
+              <div className="flex justify-center mt-8">
+                <Button 
+                  className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
+                  asChild
+                >
+                  <a href="https://wa.me/message/6YQROAKYU6PAC1">Записаться на программу</a>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {isProgram3ModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4" onClick={() => setIsProgram3ModalOpen(false)}>
+          <div className="bg-white rounded-3xl max-w-4xl max-h-[90vh] overflow-y-auto p-8 relative" onClick={(e) => e.stopPropagation()}>
+            <button
+              onClick={() => setIsProgram3ModalOpen(false)}
+              className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
+            >
+              <Icon name="X" size={24} />
+            </button>
+            
+            <div className="prose prose-lg max-w-none">
+              <div className="text-center mb-8">
+                <p className="text-xl text-gray-700 leading-relaxed">
+                  Развиваем осознанность, навыки межличностного взаимодействия, моделируем и разбираем различные жизненные ситуации и модели поведения
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-8 my-12 text-center">
+                <div>
+                  <div className="text-5xl font-light mb-2">8</div>
+                  <p className="text-sm">человек в группе</p>
+                </div>
+                <div>
+                  <div className="text-5xl font-light mb-2">60</div>
+                  <p className="text-sm">минут длится одно занятие</p>
+                </div>
+                <div>
+                  <div className="text-5xl font-light mb-2">1</div>
+                  <p className="text-sm">раз в неделю</p>
+                </div>
+              </div>
+
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Занятия для подростков 10-13 и 14-16 лет разработаны с учётом лучшего российского научно-практического опыта и опыта 20 стран, которые внедрили эмоциональный интеллект в свою систему школьного образования: США, Канады, Швейцарии, Италии, Испании и др. На занятиях дети моделируют реальные ситуации, изучают кейсы, начинают слушать мини-лекции.
+              </p>
+
+              <h3 className="text-2xl font-light mt-8 mb-4">Какие навыки формируем</h3>
+              <ul className="space-y-2">
+                <li>Осознанность</li>
+                <li>Мотивация</li>
+                <li>Уверенность, адекватная самооценка</li>
+                <li>Работа в команде</li>
+                <li>Управление своим поведением</li>
+                <li>Навыки межличностного взаимодействия со сверстниками и взрослыми</li>
+                <li>Эмоциональная гибкость</li>
+              </ul>
+
+              <h3 className="text-2xl font-light mt-8 mb-4">Каких результатов можно ожидать?</h3>
+              <ul className="space-y-2">
+                <li>Знакомимся с миром эмоций, чувств, настроений и состояний</li>
+                <li>Развиваем эмпатию</li>
+                <li>Знаем, как определить ложь</li>
+                <li>Отрабатываем навыки коммуникации, умеем взаимодействовать в команде</li>
+                <li>Умеем использовать эмоции в жизненных ситуациях</li>
+                <li>Отрабатываем эффективные стратегии управления своими эмоциями и поведением</li>
+                <li>Знаем стратегии поведения в эмоционально – насыщенной ситуации</li>
+                <li>Умеем выстраивать социальные контакты</li>
+                <li>Можем уверенно выступить перед классом</li>
+                <li>Знаем, как справляться со стрессом, волнением</li>
+                <li>Умеем ставить реалистичные цели</li>
+                <li>Умеем управлять эмоциями и поведением для достижения целей</li>
+                <li>Умеем ответственно принимать решения</li>
+                <li>Знаем приемы сглаживания конфликтных ситуаций</li>
+                <li>Умеем говорить «нет» и противостоять группе</li>
+                <li>Умеем аргументировать свою позицию и отстаивать свои интересы</li>
               </ul>
 
               <div className="flex justify-center mt-8">
