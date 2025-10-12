@@ -137,8 +137,41 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute top-10 left-10 w-48 h-48 bg-green-400 rounded-full opacity-40"></div>
               <img 
-                src="https://cdn.poehali.dev/files/68883cb4-b35a-4ee4-9ccc-b5cf9d5d0662.jpeg"
+                src="https://cdn.poehali.dev/files/437f740b-bd75-44a8-861d-a17df6f09b9e.jpeg"
                 alt="Ребенок улыбается"
+                className="relative z-10 w-full max-w-md h-auto object-contain"
+              />
+            </div>
+            <Button 
+              className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
+              asChild
+            >
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      <section className="relative min-h-screen bg-cyan-400 overflow-hidden">
+        <div className="absolute top-20 left-10 w-64 h-64 bg-cyan-300 rounded-full opacity-40"></div>
+        <div className="absolute bottom-0 right-0 w-full h-64 bg-gradient-to-t from-green-500 to-transparent"></div>
+        
+        <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-screen">
+          <div className="max-w-2xl">
+            <h2 className="text-3xl md:text-5xl font-light text-white mb-6">
+              УВЕРЕННОСТЬ
+            </h2>
+            <p className="text-lg md:text-xl text-white/90 mb-8">
+              Развитый эмоциональный интеллект помогает детям чувствовать себя уверенно в любой ситуации.
+            </p>
+          </div>
+          
+          <div className="flex flex-col items-center gap-8 pb-8">
+            <div className="relative">
+              <div className="absolute top-10 right-10 w-48 h-48 bg-cyan-300 rounded-full opacity-40"></div>
+              <img 
+                src="https://cdn.poehali.dev/files/437f740b-bd75-44a8-861d-a17df6f09b9e.jpeg"
+                alt="Уверенный ребенок"
                 className="relative z-10 w-full max-w-md h-auto object-contain"
               />
             </div>
