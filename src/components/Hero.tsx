@@ -293,32 +293,32 @@ const Hero = () => {
             ПРОГРАММЫ
           </h2>
           
-          <div className="flex flex-col items-center gap-12 max-w-3xl mx-auto">
-            <div className="relative w-full max-w-md">
-              <div className="bg-blue-500 p-12 text-white text-center flex flex-col justify-center items-center transform transition-transform hover:scale-105" 
+          <div className="flex flex-col items-center gap-6 max-w-xl mx-auto">
+            <div className="relative w-full max-w-[14rem]">
+              <div className="bg-blue-500 p-6 text-white text-center flex flex-col justify-center items-center transform transition-transform hover:scale-105" 
                    style={{borderRadius: '40% 60% 50% 50% / 60% 40% 60% 40%', aspectRatio: '1/1'}}>
-                <h3 className="text-3xl md:text-4xl font-light mb-4">4–6 ЛЕТ</h3>
-                <p className="text-lg md:text-xl">
+                <h3 className="text-xl md:text-2xl font-light mb-2">4–6 ЛЕТ</h3>
+                <p className="text-sm md:text-base">
                   Эмоциональная подготовка к школе
                 </p>
               </div>
             </div>
 
-            <div className="relative w-full max-w-lg">
-              <div className="bg-purple-600 p-12 text-white text-center flex flex-col justify-center items-center transform transition-transform hover:scale-105" 
+            <div className="relative w-full max-w-[16rem]">
+              <div className="bg-purple-600 p-6 text-white text-center flex flex-col justify-center items-center transform transition-transform hover:scale-105" 
                    style={{borderRadius: '30% 70% 70% 30% / 30% 30% 70% 70%', aspectRatio: '1.2/1'}}>
-                <h3 className="text-3xl md:text-4xl font-light mb-4">7–10 ЛЕТ</h3>
-                <p className="text-lg md:text-xl">
+                <h3 className="text-xl md:text-2xl font-light mb-2">7–10 ЛЕТ</h3>
+                <p className="text-sm md:text-base">
                   Развиваем эмоциональный интеллект
                 </p>
               </div>
             </div>
 
-            <div className="relative w-full max-w-md">
-              <div className="bg-yellow-400 p-12 text-gray-900 text-center flex flex-col justify-center items-center transform transition-transform hover:scale-105" 
+            <div className="relative w-full max-w-[14rem]">
+              <div className="bg-yellow-400 p-6 text-gray-900 text-center flex flex-col justify-center items-center transform transition-transform hover:scale-105" 
                    style={{borderRadius: '30% 70% 40% 60% / 50% 50% 50% 50%', aspectRatio: '1/1'}}>
-                <h3 className="text-3xl md:text-4xl font-light mb-4">11–15 ЛЕТ</h3>
-                <p className="text-lg md:text-xl">
+                <h3 className="text-xl md:text-2xl font-light mb-2">11–15 ЛЕТ</h3>
+                <p className="text-sm md:text-base">
                   Эмоциональное лидерство
                 </p>
               </div>
