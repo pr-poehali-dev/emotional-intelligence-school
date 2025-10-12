@@ -252,6 +252,41 @@ const Hero = () => {
         </div>
       </section>
 
+      <section className="relative min-h-screen bg-white overflow-hidden">
+        <div className="container mx-auto px-4 py-16 relative z-10">
+          <h2 className="text-4xl md:text-6xl font-light text-gray-900 text-center mb-16">
+            ЗАНЯТИЯ
+          </h2>
+          
+          <div className="max-w-4xl mx-auto space-y-6 text-center">
+            <p className="text-xl md:text-2xl text-gray-800 leading-relaxed">
+              Все пути к познанию эмоций ведут...в «ЭИ дети»! «ЭИ дети» – разработчик российских научных инструментов оценки и развития способностей эмоционального интеллекта (ЭИ) детей и подростков. Это:
+            </p>
+            
+            <div className="space-y-4 text-lg md:text-xl text-gray-700 pt-8">
+              <p>
+                - методика, разработанная при мощной научной поддержке профессоров Института психологии РАН.
+              </p>
+              <p>
+                - только проверенные на практике инструменты по развитию эмоционального интеллекта
+              </p>
+              <p className="font-semibold text-gray-900">
+                - гарантия развития ЭИ вашего ребенка с большой буквы!
+              </p>
+            </div>
+          </div>
+          
+          <div className="flex justify-center mt-12">
+            <Button 
+              className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
+              asChild
+            >
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Записаться на занятия</a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {isModalOpen && (
         <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4" onClick={() => setIsModalOpen(false)}>
           <div className="bg-white rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-8 relative" onClick={(e) => e.stopPropagation()}>
