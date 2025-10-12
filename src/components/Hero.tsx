@@ -184,6 +184,70 @@ const Hero = () => {
           </div>
         </div>
       </section>
+
+      <section className="relative min-h-screen bg-pink-600 overflow-hidden">
+        <div className="absolute top-20 right-10 w-96 h-96 bg-pink-500 rounded-full opacity-30"></div>
+        <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-yellow-400 to-transparent"></div>
+        
+        <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-screen">
+          <div className="max-w-2xl">
+            <h2 className="text-3xl md:text-5xl font-light text-white mb-6">
+              НЕ ВСЕ СРАЗУ
+            </h2>
+            <p className="text-lg md:text-xl text-white/90 mb-8">
+              Иногда распознать эмоции и сладить с ними бывает не так просто.
+            </p>
+          </div>
+          
+          <div className="flex flex-col items-center gap-8 pb-8">
+            <div className="relative">
+              <img 
+                src="https://cdn.poehali.dev/files/59bf34d0-45ad-4258-82d8-863041cc9086.jpeg"
+                alt="Удивленный ребенок"
+                className="w-full max-w-md h-auto object-contain"
+              />
+            </div>
+            <Button 
+              className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
+              asChild
+            >
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      <section className="relative min-h-screen bg-gray-100 overflow-hidden">
+        <div className="absolute top-20 left-10 w-64 h-64 bg-purple-500 rounded-full opacity-20"></div>
+        <div className="absolute top-40 right-20 w-48 h-48 bg-yellow-400 rounded-full opacity-20"></div>
+        
+        <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-screen">
+          <div className="max-w-2xl">
+            <h2 className="text-3xl md:text-5xl font-light text-gray-900 mb-6">
+              СУПЕРВЗРОСЛЫЕ
+            </h2>
+            <p className="text-lg md:text-xl text-gray-800 mb-8">
+              Из супердетей вырастают эмоционально грамотные взрослые. Например, супервзрослый не затаит злость, а направит эту энергию на воплощение нового проекта.
+            </p>
+          </div>
+          
+          <div className="flex flex-col items-center gap-8 pb-8">
+            <div className="relative">
+              <img 
+                src="https://cdn.poehali.dev/files/505fa3d2-5804-48c5-8145-344741c64e64.jpeg"
+                alt="Супервзрослый"
+                className="w-full max-w-md h-auto object-contain"
+              />
+            </div>
+            <Button 
+              className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
+              asChild
+            >
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+            </Button>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
