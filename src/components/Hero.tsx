@@ -69,6 +69,16 @@ const Hero = () => {
             </p>
           </div>
           
+          <div className="flex justify-center items-end">
+            <div className="relative">
+              <img 
+                src="https://cdn.poehali.dev/files/b423f87f-90f7-432f-ac29-4fb27adbceb6.jpeg"
+                alt="Ребенок в маске супергероя"
+                className="w-full max-w-md h-auto object-contain"
+              />
+            </div>
+          </div>
+          
           <div className="flex justify-center pb-8">
             <Button 
               className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
@@ -94,6 +104,16 @@ const Hero = () => {
             </p>
           </div>
           
+          <div className="flex justify-center items-end">
+            <div className="relative">
+              <img 
+                src="https://cdn.poehali.dev/files/64e037b2-3cea-4658-96c4-909998c84519.jpeg"
+                alt="Ребенок в очках-пикселях"
+                className="w-full max-w-md h-auto object-contain"
+              />
+            </div>
+          </div>
+          
           <div className="flex justify-center pb-8">
             <Button 
               className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold border-2 border-black"
@@ -117,6 +137,17 @@ const Hero = () => {
             <p className="text-lg md:text-xl text-white/90 mb-8">
               Развитая эмпатия помогает выстраивать крепкие дружеские связи и находить общий язык с любым человеком.
             </p>
+          </div>
+          
+          <div className="flex justify-center items-end">
+            <div className="relative">
+              <div className="absolute top-10 left-10 w-48 h-48 bg-green-400 rounded-full opacity-40"></div>
+              <img 
+                src="https://cdn.poehali.dev/files/68883cb4-b35a-4ee4-9ccc-b5cf9d5d0662.jpeg"
+                alt="Ребенок улыбается"
+                className="relative z-10 w-full max-w-md h-auto object-contain"
+              />
+            </div>
           </div>
           
           <div className="flex justify-center pb-8">
