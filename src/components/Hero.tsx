@@ -287,6 +287,52 @@ const Hero = () => {
         </div>
       </section>
 
+      <section className="relative min-h-screen bg-gray-50 overflow-hidden py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl md:text-6xl font-light text-gray-900 text-center mb-16">
+            ПРОГРАММЫ
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="relative group">
+              <div className="bg-blue-500 rounded-[3rem] p-8 text-white text-center min-h-[300px] flex flex-col justify-center items-center transform transition-transform hover:scale-105">
+                <h3 className="text-3xl md:text-4xl font-light mb-4">4–6 ЛЕТ</h3>
+                <p className="text-xl md:text-2xl">
+                  Эмоциональная подготовка к школе
+                </p>
+              </div>
+            </div>
+
+            <div className="relative group">
+              <div className="bg-purple-600 rounded-[3rem] p-8 text-white text-center min-h-[300px] flex flex-col justify-center items-center transform transition-transform hover:scale-105">
+                <h3 className="text-3xl md:text-4xl font-light mb-4">7–10 ЛЕТ</h3>
+                <p className="text-xl md:text-2xl">
+                  Развиваем эмоциональный интеллект
+                </p>
+              </div>
+            </div>
+
+            <div className="relative group">
+              <div className="bg-yellow-400 rounded-[3rem] p-8 text-gray-900 text-center min-h-[300px] flex flex-col justify-center items-center transform transition-transform hover:scale-105">
+                <h3 className="text-3xl md:text-4xl font-light mb-4">11–15 ЛЕТ</h3>
+                <p className="text-xl md:text-2xl">
+                  Эмоциональное лидерство
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex justify-center mt-12">
+            <Button 
+              className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
+              asChild
+            >
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Выбрать программу</a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {isModalOpen && (
         <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4" onClick={() => setIsModalOpen(false)}>
           <div className="bg-white rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-8 relative" onClick={(e) => e.stopPropagation()}>
