@@ -40,7 +40,7 @@ const Header = () => {
             <a href="#contacts" className="block text-lg text-gray-800 hover:text-yellow-500">Контакты</a>
           </nav>
           <div className="mt-6 text-sm text-gray-600">
-            <div>г. Владивосток, ул. Русская 17</div>
+            <div>г.Владивосток, ул.Русская 17 каб.804.3</div>
             <div>Тел: 8 964 444 8177</div>
           </div>
           <Button 
