@@ -42,7 +42,7 @@ const Hero = () => {
           <div className="relative min-h-[500px] flex items-end justify-center mt-12">
             <div className="absolute bottom-0 left-10 w-32 h-32 bg-purple-500 rounded-full opacity-40"></div>
             <img 
-              src="https://cdn.poehali.dev/files/b25ecc07-7377-43ce-a934-7d08655c0e9b.jpeg"
+              src="https://cdn.poehali.dev/files/8754cb70-8157-44de-a12b-d450d906b786.jpeg"
               alt="Ребенок показывает эмоции"
               className="relative z-10 w-full max-w-lg h-auto object-contain"
             />
