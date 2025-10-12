@@ -8,19 +8,23 @@ const Header = () => {
   return (
     <header className="bg-white sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center gap-6">
           <img 
             src="https://cdn.poehali.dev/files/24909471-9ed8-4eb8-a543-12ad2286d726.jpeg" 
             alt="Логотип ЭИ ДЕТИ" 
-            className="w-16 h-16 rounded-full object-cover"
+            className="w-20 h-20 rounded-full object-cover flex-shrink-0"
           />
-          <div className="hidden md:block">
-            <div className="text-xs text-gray-600 mb-1">МЕЖДУНАРОДНАЯ ШКОЛА РАЗВИТИЯ ЭМОЦИОНАЛЬНОГО ИНТЕЛЛЕКТА ДЛЯ ДЕТЕЙ</div>
-            <div className="text-orange-500 font-medium leading-tight">
-              <div>г.Владивосток</div>
-              <div>ул.Русская 17</div>
-              <div>каб.804/3</div>
+          <div className="hidden md:block text-center flex-1">
+            <div className="text-base leading-snug">
+              Международная школа развития<br />
+              эмоционального интеллекта<br />
+              для детей от 5-16 лет
             </div>
+          </div>
+          <div className="hidden lg:block text-orange-500 font-medium text-lg leading-tight text-right flex-shrink-0">
+            <div>г.Владивосток</div>
+            <div>ул.Русская 17</div>
+            <div>каб.804/3</div>
           </div>
         </div>
         
