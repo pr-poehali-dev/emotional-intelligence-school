@@ -170,7 +170,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute top-10 right-10 w-48 h-48 bg-blue-400 rounded-full opacity-40"></div>
               <img 
-                src="https://cdn.poehali.dev/files/06bf8a0e-fbfc-4106-9e2a-167480e6e977.jpeg"
+                src="https://cdn.poehali.dev/files/57e82319-ec44-43b2-be49-63931764a367.jpeg"
                 alt="Ребенок в очках"
                 className="relative z-10 w-full max-w-md h-auto object-contain"
               />
