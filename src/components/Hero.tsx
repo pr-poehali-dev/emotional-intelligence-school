@@ -362,7 +362,7 @@ const Hero = () => {
             <div className="flex flex-col items-center text-center">
               <div className="relative w-64 h-64 mb-6">
                 <img 
-                  src="https://cdn.poehali.dev/files/638d9580-53d6-4664-91f2-0da37d9f128a.jpeg" 
+                  src="https://cdn.poehali.dev/files/1831a821-1dc2-4441-a6b8-f89eada33e58.jpeg" 
                   alt="Елена Сергиенко"
                   className="w-full h-full object-cover"
                   style={{clipPath: 'polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)'}}
