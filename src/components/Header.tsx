@@ -8,14 +8,16 @@ const Header = () => {
   return (
     <header className="bg-white sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-4">
           <img 
             src="https://cdn.poehali.dev/files/24909471-9ed8-4eb8-a543-12ad2286d726.jpeg" 
             alt="Логотип ЭИ ДЕТИ" 
             className="w-16 h-16 rounded-full object-cover"
           />
-          <div className="hidden md:block text-sm text-gray-700">
-            г.Владивосток, ул.Русская 17  каб.804/3
+          <div className="hidden md:block text-orange-500 font-medium leading-tight">
+            <div>г.Владивосток</div>
+            <div>ул.Русская 17</div>
+            <div>каб.804/3</div>
           </div>
         </div>
         
