@@ -434,6 +434,22 @@ const Hero = () => {
                 Профессор Университета прикладных наук Швейцарии, M.Ed., мировой эксперт в области детского эмоционального интеллекта
               </p>
             </div>
+
+            <div className="flex flex-col items-center text-center">
+              <div className="relative w-64 h-64 mb-6">
+                <img 
+                  src="https://cdn.poehali.dev/files/74b4b8d5-ff9d-49f7-9481-67c6067fbdd0.jpeg" 
+                  alt="Недашковская Лия Томазиевна"
+                  className="w-full h-full object-cover"
+                  style={{clipPath: 'polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%)', transform: 'rotate(-5deg)'}}
+                />
+              </div>
+              <h3 className="text-2xl md:text-3xl font-semibold mb-4">Недашковская Лия Томазиевна</h3>
+              <p className="text-sm text-gray-600 mb-2">Семейный Психолог</p>
+              <p className="text-gray-700 leading-relaxed">
+                Руководитель центра «ЭИ ДЕТИ» в г.Владивосток, преподаватель, специалист в области развития ЭИ у детей и взрослых
+              </p>
+            </div>
           </div>
         </div>
       </section>
