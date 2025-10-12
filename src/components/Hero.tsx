@@ -9,6 +9,16 @@ const Hero = () => {
   const [isProgram3ModalOpen, setIsProgram3ModalOpen] = useState(false);
   return (
     <>
+      <section className="bg-white py-6">
+        <div className="container mx-auto px-4">
+          <img 
+            src="https://cdn.poehali.dev/files/3b3e065a-1a8f-4f2f-a592-c810fa497ea8.jpeg" 
+            alt="Международная школа развития эмоционального интеллекта" 
+            className="w-full max-w-4xl mx-auto"
+          />
+        </div>
+      </section>
+      
       <section className="relative min-h-screen bg-gray-100 overflow-hidden">
         <div className="absolute top-20 left-10 w-32 h-32 bg-purple-500 rounded-full opacity-50 blur-3xl"></div>
         <div className="absolute bottom-20 right-10 w-48 h-48 bg-yellow-400 rounded-full opacity-50 blur-3xl"></div>
