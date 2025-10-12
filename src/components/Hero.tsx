@@ -418,6 +418,22 @@ const Hero = () => {
                 Профессор, исследователь центра развития эмоционального интеллекта Йельского университета, Ph.D., со-основатель научной теории эмоционального интеллекта
               </p>
             </div>
+
+            <div className="flex flex-col items-center text-center">
+              <div className="relative w-64 h-64 mb-6">
+                <img 
+                  src="https://cdn.poehali.dev/files/5ee9108a-9a60-4219-9d59-068d58faba31.jpeg" 
+                  alt="Давиде Антоньяцца"
+                  className="w-full h-full object-cover"
+                  style={{clipPath: 'polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)'}}
+                />
+              </div>
+              <h3 className="text-2xl md:text-3xl font-semibold mb-4">ДАВИДЕ АНТОНЬЯЦЦА</h3>
+              <p className="text-sm text-gray-600 mb-2">научный консультант «ЭИ ДЕТИ»</p>
+              <p className="text-gray-700 leading-relaxed">
+                Профессор Университета прикладных наук Швейцарии, M.Ed., мировой эксперт в области детского эмоционального интеллекта
+              </p>
+            </div>
           </div>
         </div>
       </section>
