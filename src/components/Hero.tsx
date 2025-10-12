@@ -185,8 +185,8 @@ const Hero = () => {
         </div>
       </section>
 
-      <section className="relative min-h-screen bg-pink-600 overflow-hidden">
-        <div className="absolute top-20 right-10 w-96 h-96 bg-pink-500 rounded-full opacity-30"></div>
+      <section className="relative min-h-screen bg-red-600 overflow-hidden">
+        <div className="absolute top-20 right-10 w-96 h-96 bg-red-500 rounded-full opacity-30"></div>
         <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-yellow-400 to-transparent"></div>
         
         <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-screen">
@@ -202,7 +202,7 @@ const Hero = () => {
           <div className="flex flex-col items-center gap-8 pb-8">
             <div className="relative">
               <img 
-                src="https://cdn.poehali.dev/files/59bf34d0-45ad-4258-82d8-863041cc9086.jpeg"
+                src="https://cdn.poehali.dev/files/7ab5840f-0f69-4f82-b3b5-ac48a85e1e34.jpeg"
                 alt="Удивленный ребенок"
                 className="w-full max-w-md h-auto object-contain"
               />
