@@ -437,7 +437,7 @@ const Hero = () => {
                   className="w-full h-full object-cover rounded-full"
                 />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Недашковская Лия Томазиевна</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Недашковская Лия</h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Руководитель центра «ЭИ ДЕТИ» в г.Владивосток, преподаватель, специалист в области развития ЭИ у детей и взрослых
               </p>
