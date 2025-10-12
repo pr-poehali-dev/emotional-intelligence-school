@@ -69,7 +69,7 @@ const Hero = () => {
             </p>
           </div>
           
-          <div className="flex justify-center items-end">
+          <div className="flex justify-center items-end pb-8">
             <div className="relative">
               <img 
                 src="https://cdn.poehali.dev/files/b423f87f-90f7-432f-ac29-4fb27adbceb6.jpeg"
@@ -77,15 +77,6 @@ const Hero = () => {
                 className="w-full max-w-md h-auto object-contain"
               />
             </div>
-          </div>
-          
-          <div className="flex justify-center pb-8">
-            <Button 
-              className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
-              asChild
-            >
-              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
-            </Button>
           </div>
         </div>
       </section>
@@ -104,7 +95,7 @@ const Hero = () => {
             </p>
           </div>
           
-          <div className="flex justify-center items-end">
+          <div className="flex justify-center items-end pb-8">
             <div className="relative">
               <img 
                 src="https://cdn.poehali.dev/files/64e037b2-3cea-4658-96c4-909998c84519.jpeg"
@@ -112,15 +103,6 @@ const Hero = () => {
                 className="w-full max-w-md h-auto object-contain"
               />
             </div>
-          </div>
-          
-          <div className="flex justify-center pb-8">
-            <Button 
-              className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold border-2 border-black"
-              asChild
-            >
-              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
-            </Button>
           </div>
         </div>
       </section>
@@ -139,7 +121,7 @@ const Hero = () => {
             </p>
           </div>
           
-          <div className="flex justify-center items-end">
+          <div className="flex justify-center items-end pb-8">
             <div className="relative">
               <div className="absolute top-10 left-10 w-48 h-48 bg-green-400 rounded-full opacity-40"></div>
               <img 
@@ -148,15 +130,6 @@ const Hero = () => {
                 className="relative z-10 w-full max-w-md h-auto object-contain"
               />
             </div>
-          </div>
-          
-          <div className="flex justify-center pb-8">
-            <Button 
-              className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
-              asChild
-            >
-              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
-            </Button>
           </div>
         </div>
       </section>
