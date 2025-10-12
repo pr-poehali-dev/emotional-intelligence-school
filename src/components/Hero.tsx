@@ -1,6 +1,9 @@
 import { Button } from '@/components/ui/button';
+import { useState } from 'react';
+import Icon from '@/components/ui/icon';
 
 const Hero = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <>
       <section className="relative min-h-screen bg-gray-100 overflow-hidden">
@@ -32,9 +35,9 @@ const Hero = () => {
               </p>
               <Button 
                 className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-8 py-6 text-lg font-semibold"
-                asChild
+                onClick={() => setIsModalOpen(true)}
               >
-                <a href="https://wa.me/message/6YQROAKYU6PAC1">Подробнее о тесте</a>
+                Подробнее о тесте
               </Button>
             </div>
           </div>
@@ -248,6 +251,58 @@ const Hero = () => {
           </div>
         </div>
       </section>
+
+      {isModalOpen && (
+        <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4" onClick={() => setIsModalOpen(false)}>
+          <div className="bg-white rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-8 relative" onClick={(e) => e.stopPropagation()}>
+            <button 
+              onClick={() => setIsModalOpen(false)}
+              className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
+            >
+              <Icon name="X" size={24} />
+            </button>
+            
+            <h2 className="text-2xl md:text-3xl font-light text-gray-900 mb-6">
+              О тесте ТЭИ-П
+            </h2>
+            
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p>
+                Российская онлайн-методика оценки уровня эмоционального интеллекта (ЭИ) детей и подростков в возрасте от 10 до 13 лет.
+              </p>
+              
+              <p>
+                Разработка и психометрическая проверка теста ТЭИ-П проводилась под руководством д.психол.н., профессора Института психологии Российской академии наук, Е.А. Сергиенко.
+              </p>
+              
+              <p>
+                В основе теста заложено представление об эмоциональном интеллекте как когнитивной способности.
+              </p>
+              
+              <p>
+                Способности эмоционального интеллекта лежат в основе развития многих гибких навыков детей и подростков: коммуникативность, лидерские и социальные навыки, адаптивность к изменениям, стрессоустойчивость, эмпатичное поведение и др.
+              </p>
+              
+              <p>
+                Тест ТЭИ-П — задачная методика, объективно измеряющая способности эмоционального интеллекта и в отличие от опросников, основанных на самоотчете, она является наиболее надежным инструментом оценки.
+              </p>
+              
+              <p>
+                Психометрические показатели теста соответствуют основным требованиям, предъявляемым к исследовательским методикам: показатели валидности и надежности находятся на достаточном уровне (Сергиенко Е.А. и др.).
+              </p>
+            </div>
+            
+            <div className="mt-8">
+              <Button 
+                className="w-full bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-8 py-4 text-lg font-semibold"
+                asChild
+              >
+                <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 };
