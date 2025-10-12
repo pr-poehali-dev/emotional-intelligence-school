@@ -4,6 +4,7 @@ import Icon from '@/components/ui/icon';
 
 const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isProgramModalOpen, setIsProgramModalOpen] = useState(false);
   return (
     <>
       <section className="relative min-h-screen bg-gray-100 overflow-hidden">
@@ -295,13 +296,16 @@ const Hero = () => {
           
           <div className="flex flex-col items-center gap-6 max-w-xl mx-auto">
             <div className="relative w-full max-w-[14rem]">
-              <div className="bg-blue-500 p-6 text-white text-center flex flex-col justify-center items-center transform transition-transform hover:scale-105" 
-                   style={{borderRadius: '40% 60% 50% 50% / 60% 40% 60% 40%', aspectRatio: '1/1'}}>
+              <button
+                onClick={() => setIsProgramModalOpen(true)}
+                className="w-full bg-blue-500 p-6 text-white text-center flex flex-col justify-center items-center transform transition-transform hover:scale-105 cursor-pointer" 
+                style={{borderRadius: '40% 60% 50% 50% / 60% 40% 60% 40%', aspectRatio: '1/1'}}
+              >
                 <h3 className="text-xl md:text-2xl font-light mb-2">4–6 ЛЕТ</h3>
                 <p className="text-sm md:text-base">
                   Эмоциональная подготовка к школе
                 </p>
-              </div>
+              </button>
             </div>
 
             <div className="relative w-full max-w-[16rem]">
@@ -335,6 +339,94 @@ const Hero = () => {
           </div>
         </div>
       </section>
+
+      {isProgramModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4" onClick={() => setIsProgramModalOpen(false)}>
+          <div className="bg-white rounded-3xl max-w-4xl max-h-[90vh] overflow-y-auto p-8 relative" onClick={(e) => e.stopPropagation()}>
+            <button
+              onClick={() => setIsProgramModalOpen(false)}
+              className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
+            >
+              <Icon name="X" size={24} />
+            </button>
+            
+            <div className="prose prose-lg max-w-none">
+              <div className="text-center mb-8">
+                <p className="text-xl text-gray-700 leading-relaxed">
+                  Формируем основу для адаптации к школе: учим детей проявлять эмоции понятными и социально приемлемыми способами.
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-8 my-12 text-center">
+                <div>
+                  <div className="text-5xl font-light mb-2">8</div>
+                  <p className="text-sm">человек в группе</p>
+                </div>
+                <div>
+                  <div className="text-5xl font-light mb-2">60</div>
+                  <p className="text-sm">минут длится одно занятие</p>
+                </div>
+                <div>
+                  <div className="text-5xl font-light mb-2">1</div>
+                  <p className="text-sm">раз в неделю</p>
+                </div>
+              </div>
+
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Мы разработали систему занятий для детей 4-6 лет с учётом лучшего российского научно-практического опыта и опыта 20 стран, которые внедрили эмоциональный интеллект в свою систему школьного образования: США, Канады, Швейцарии, Италии, Испании и др. Используя инструменты и методики, доказавшие эффективность на мировом опыте, мы гарантируем прогресс в эмоционально-интеллектуальной сфере ребёнка в центрах «ЭИ дети».
+              </p>
+
+              <h3 className="text-2xl font-light mt-8 mb-4">Какие навыки формируем</h3>
+              <ul className="space-y-2">
+                <li>Волевая саморегуляция</li>
+                <li>Внимание и концентрация</li>
+                <li>Умение дружить, начинать и поддерживать дружеские отношения</li>
+                <li>Адаптивность</li>
+                <li>Управление своим поведением</li>
+              </ul>
+
+              <h3 className="text-2xl font-light mt-8 mb-4">Каких результатов можно ожидать?</h3>
+              <ul className="space-y-2">
+                <li>Знакомимся с 8 базовыми эмоциями</li>
+                <li>Углубленно изучаем 5 эмоций</li>
+                <li>Умеем справляться со своим страхом</li>
+                <li>Учимся регулировать «сильные» эмоции</li>
+                <li>Умеем концентрироваться на задачах</li>
+                <li>Умеем проявлять заботу и оказать поддержку</li>
+                <li>Умеем доверять и знаем, кому доверять нельзя</li>
+                <li>Углубленно изучаем 3 эмоции</li>
+                <li>Умеем говорить о своих эмоциях</li>
+                <li>Умеем расслабляться и концентрироваться</li>
+                <li>Умеем определять эмоции в музыке</li>
+                <li>Учимся позитивно мыслить</li>
+                <li>Знаем три стратегии управления эмоциями</li>
+                <li>Чувствуем и понимаем интенсивность эмоций</li>
+                <li>Начинаем распознавать и понимать эмоции других людей</li>
+                <li>Распознаём свои эмоции и эмоции других</li>
+                <li>Умеем проявлять эмоции социально приемлемым способом</li>
+                <li>Умеет использовать эмоции в конкретной ситуации</li>
+                <li>Уверенно чувствуем себя в окружении незнакомых людей</li>
+                <li>Умеем дружить, поддерживать дружеские отношения</li>
+                <li>Знаем как себя вести в конфликтных ситуациях</li>
+              </ul>
+
+              <h3 className="text-2xl font-light mt-8 mb-4">Дневник эмоций</h3>
+              <p className="text-gray-700 leading-relaxed">
+                Всем родителям мы рекомендуем ежедневно вести с ребенком «Дневник эмоций» и самостоятельно «Дневник наблюдений родителя». Во время работы с Дневниками вы будете анализировать эмоции и объяснять их причины, придумывать способы решения сложных ситуаций. Ребенок каждый день записывает и рисует эмоции, которые у него возникли в течение дня — это позволяет ему обращать внимание на свои эмоции и связывать их с определенными событиями. Подобное подведение «эмоционального итога дня» не только тренирует эмоциональный интеллект ребенка, но и повышает уверенность в себе.
+              </p>
+
+              <div className="flex justify-center mt-8">
+                <Button 
+                  className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
+                  asChild
+                >
+                  <a href="https://wa.me/message/6YQROAKYU6PAC1">Записаться на программу</a>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {isModalOpen && (
         <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4" onClick={() => setIsModalOpen(false)}>
