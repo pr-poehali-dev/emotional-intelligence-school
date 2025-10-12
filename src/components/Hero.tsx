@@ -392,7 +392,7 @@ const Hero = () => {
             <div className="flex flex-col items-center text-center">
               <div className="relative w-64 h-64 mb-6">
                 <img 
-                  src="https://cdn.poehali.dev/files/a7fdf255-d6ab-4046-9adc-07685c44515f.jpeg" 
+                  src="https://cdn.poehali.dev/files/8e776408-9797-40fc-8529-91007387ef19.jpeg" 
                   alt="Елена Хлевная"
                   className="w-full h-full object-cover"
                   style={{clipPath: 'polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%)', transform: 'rotate(10deg)'}}
