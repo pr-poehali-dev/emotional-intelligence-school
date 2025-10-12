@@ -348,6 +348,65 @@ const Hero = () => {
         </div>
       </section>
 
+      <section className="relative min-h-screen bg-white overflow-hidden py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl md:text-6xl font-light text-gray-900 text-center mb-8">
+            КОМАНДА
+          </h2>
+          
+          <p className="text-lg md:text-xl text-gray-700 text-center max-w-3xl mx-auto mb-16">
+            Осуществляют научно-методическую поддержку 50 центров в 40 городах России и СНГ
+          </p>
+
+          <div className="flex flex-col items-center gap-16 max-w-5xl mx-auto">
+            <div className="flex flex-col items-center text-center">
+              <div className="relative w-64 h-64 mb-6">
+                <img 
+                  src="https://cdn.poehali.dev/files/b765c156-03fd-4e05-9b42-f9680e84c075.jpeg" 
+                  alt="Елена Сергиенко"
+                  className="w-full h-full object-cover"
+                  style={{clipPath: 'polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)'}}
+                />
+              </div>
+              <h3 className="text-2xl md:text-3xl font-light mb-4">Елена Сергиенко</h3>
+              <p className="text-gray-700 leading-relaxed max-w-2xl">
+                Доктор психологических наук, профессор Института психологии Российской Академии Наук, научный консультант сети центров «ЭИ дети»
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center text-center">
+              <div className="relative w-64 h-64 mb-6">
+                <img 
+                  src="https://cdn.poehali.dev/files/e144766e-e7ef-4dac-9aaa-15bae03bfdb8.jpeg" 
+                  alt="Татьяна Киселева"
+                  className="w-full h-full object-cover"
+                  style={{clipPath: 'polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)'}}
+                />
+              </div>
+              <h3 className="text-2xl md:text-3xl font-light mb-4">Татьяна Киселева</h3>
+              <p className="text-gray-700 leading-relaxed max-w-2xl">
+                Кандидат психологических наук, генеральный директор «ЭИ дети». Разработчик программ развития эмоционального интеллекта детей и взрослых, соавтор книг и пособий по развитию ЭИ.
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center text-center">
+              <div className="relative w-64 h-64 mb-6">
+                <img 
+                  src="https://cdn.poehali.dev/files/e144766e-e7ef-4dac-9aaa-15bae03bfdb8.jpeg" 
+                  alt="Елена Хлевная"
+                  className="w-full h-full object-cover"
+                  style={{clipPath: 'polygon(25% 0%, 75% 0%, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0% 75%, 0% 25%)'}}
+                />
+              </div>
+              <h3 className="text-2xl md:text-3xl font-light mb-4">Елена Хлевная</h3>
+              <p className="text-gray-700 leading-relaxed max-w-2xl">
+                Доктор экономических и кандидат психологических наук, соавтор первой русскоязычной объективной онлайн методики оценки эмоционального интеллекта ТЭИ (тест эмоционального интеллекта), научный руководитель сети центров «ЭИ дети»
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {isProgramModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4" onClick={() => setIsProgramModalOpen(false)}>
           <div className="bg-white rounded-3xl max-w-4xl max-h-[90vh] overflow-y-auto p-8 relative" onClick={(e) => e.stopPropagation()}>
