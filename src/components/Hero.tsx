@@ -234,7 +234,7 @@ const Hero = () => {
           <div className="flex flex-col items-center gap-8 pb-8">
             <div className="relative">
               <img 
-                src="https://cdn.poehali.dev/files/505fa3d2-5804-48c5-8145-344741c64e64.jpeg"
+                src="https://cdn.poehali.dev/files/b1a67d27-bde5-4119-b5ed-c1e6a98d4062.jpeg"
                 alt="Супервзрослый"
                 className="w-full max-w-md h-auto object-contain"
               />
