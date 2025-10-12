@@ -152,26 +152,26 @@ const Hero = () => {
         </div>
       </section>
 
-      <section className="relative min-h-screen bg-cyan-400 overflow-hidden">
-        <div className="absolute top-20 left-10 w-64 h-64 bg-cyan-300 rounded-full opacity-40"></div>
-        <div className="absolute bottom-0 right-0 w-full h-64 bg-gradient-to-t from-green-500 to-transparent"></div>
+      <section className="relative min-h-screen bg-blue-500 overflow-hidden">
+        <div className="absolute top-20 left-10 w-64 h-64 bg-blue-400 rounded-full opacity-40"></div>
+        <div className="absolute bottom-0 right-0 w-full h-64 bg-gradient-to-t from-cyan-400 to-transparent"></div>
         
         <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-screen">
           <div className="max-w-2xl">
             <h2 className="text-3xl md:text-5xl font-light text-white mb-6">
-              УВЕРЕННОСТЬ
+              НЕ БЫВАЕТ ПЛОХИХ ЭМОЦИЙ
             </h2>
             <p className="text-lg md:text-xl text-white/90 mb-8">
-              Развитый эмоциональный интеллект помогает детям чувствовать себя уверенно в любой ситуации.
+              Суперребенок научится работать с каждой эмоцией. Ведь даже грусть может помочь — например, сосредоточиться на контрольной.
             </p>
           </div>
           
           <div className="flex flex-col items-center gap-8 pb-8">
             <div className="relative">
-              <div className="absolute top-10 right-10 w-48 h-48 bg-cyan-300 rounded-full opacity-40"></div>
+              <div className="absolute top-10 right-10 w-48 h-48 bg-blue-400 rounded-full opacity-40"></div>
               <img 
-                src="https://cdn.poehali.dev/files/437f740b-bd75-44a8-861d-a17df6f09b9e.jpeg"
-                alt="Уверенный ребенок"
+                src="https://cdn.poehali.dev/files/06bf8a0e-fbfc-4106-9e2a-167480e6e977.jpeg"
+                alt="Ребенок в очках"
                 className="relative z-10 w-full max-w-md h-auto object-contain"
               />
             </div>
