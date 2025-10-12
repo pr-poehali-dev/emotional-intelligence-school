@@ -125,41 +125,6 @@ const Hero = () => {
         </div>
       </section>
 
-      <section className="relative min-h-screen bg-blue-600 overflow-hidden">
-        <div className="absolute top-20 right-0 w-96 h-96 bg-blue-700 rounded-full opacity-30 transform translate-x-32"></div>
-        <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-yellow-400 to-transparent"></div>
-        
-        <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-screen">
-          <div className="max-w-2xl">
-            <h2 className="text-3xl md:text-5xl font-light text-white mb-6">
-              НЕ БЫВАЕТ ПЛОХИХ ЭМОЦИЙ
-            </h2>
-            <p className="text-lg md:text-xl text-white/90 mb-8">
-              Суперребенок научится работать с каждой эмоцией. Ведь даже грусть может помочь — например, сосредоточиться на контрольной.
-            </p>
-          </div>
-          
-          <div className="flex justify-center items-end">
-            <div className="relative">
-              <img 
-                src="https://cdn.poehali.dev/files/68ff4948-a1b3-4972-a405-134d601f6ca0.jpeg"
-                alt="Ребенок в синих очках"
-                className="w-full max-w-md h-auto object-contain"
-              />
-            </div>
-          </div>
-          
-          <div className="flex justify-center pb-8">
-            <Button 
-              className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
-              asChild
-            >
-              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
-            </Button>
-          </div>
-        </div>
-      </section>
-
       <section className="relative min-h-screen bg-green-500 overflow-hidden">
         <div className="absolute top-32 left-10 w-64 h-64 bg-green-400 rounded-full opacity-40"></div>
         <div className="absolute bottom-0 right-0 w-full h-64 bg-gradient-to-t from-yellow-500 to-transparent"></div>
