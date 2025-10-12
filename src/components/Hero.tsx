@@ -358,95 +358,87 @@ const Hero = () => {
             Осуществляют научно-методическую поддержку 50 центров в 40 городах России и СНГ
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="flex flex-col items-center text-center">
-              <div className="relative w-64 h-64 mb-6">
+              <div className="relative w-40 h-40 mb-4">
                 <img 
                   src="https://cdn.poehali.dev/files/1831a821-1dc2-4441-a6b8-f89eada33e58.jpeg" 
                   alt="Елена Сергиенко"
-                  className="w-full h-full object-cover"
-                  style={{clipPath: 'polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)'}}
+                  className="w-full h-full object-cover rounded-full"
                 />
               </div>
-              <h3 className="text-2xl md:text-3xl font-semibold mb-4">Елена Сергиенко</h3>
-              <p className="text-gray-700 leading-relaxed">
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Елена Сергиенко</h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
                 Доктор психологических наук, профессор Института психологии Российской Академии Наук, научный консультант сети центров «ЭИ дети»
               </p>
             </div>
 
             <div className="flex flex-col items-center text-center">
-              <div className="relative w-64 h-64 mb-6">
+              <div className="relative w-40 h-40 mb-4">
                 <img 
                   src="https://cdn.poehali.dev/files/3ff15022-05cb-4d22-a32f-16d20dd3c42f.jpeg" 
                   alt="Татьяна Киселева"
-                  className="w-full h-full object-cover"
-                  style={{clipPath: 'polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)'}}
+                  className="w-full h-full object-cover rounded-full"
                 />
               </div>
-              <h3 className="text-2xl md:text-3xl font-semibold mb-4">Татьяна Киселева</h3>
-              <p className="text-gray-700 leading-relaxed">
-                Кандидат психологических наук, генеральный директор «ЭИ дети». Разработчик программ развития эмоционального интеллекта детей и взрослых, соавтор книг и пособий по развитию ЭИ.
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Татьяна Киселева</h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Кандидат психологических наук, генеральный директор «ЭИ дети». Разработчик программ развития эмоционального интеллекта детей и взрослых, соавтор книг и пособий по развитию ЭИ
               </p>
             </div>
 
             <div className="flex flex-col items-center text-center">
-              <div className="relative w-64 h-64 mb-6">
+              <div className="relative w-40 h-40 mb-4">
                 <img 
                   src="https://cdn.poehali.dev/files/8e776408-9797-40fc-8529-91007387ef19.jpeg" 
                   alt="Елена Хлевная"
-                  className="w-full h-full object-cover"
-                  style={{clipPath: 'polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%)', transform: 'rotate(10deg)'}}
+                  className="w-full h-full object-cover rounded-full"
                 />
               </div>
-              <h3 className="text-2xl md:text-3xl font-semibold mb-4">Елена Хлевная</h3>
-              <p className="text-gray-700 leading-relaxed">
-                Доктор экономических и кандидат психологических наук, соавтор первой русскоязычной объективной онлайн методики оценки эмоционального интеллекта ТЭИ (тест эмоционального интеллекта), научный руководитель сети центров «ЭИ дети»
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Елена Хлевная</h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Доктор экономических и кандидат психологических наук, соавтор первой русскоязычной объективной онлайн методики оценки эмоционального интеллекта ТЭИ, научный руководитель сети центров «ЭИ дети»
               </p>
             </div>
 
             <div className="flex flex-col items-center text-center">
-              <div className="relative w-64 h-64 mb-6">
+              <div className="relative w-40 h-40 mb-4">
                 <img 
                   src="https://cdn.poehali.dev/files/de366626-0f8d-471c-8ed9-0ec733a293e7.jpeg" 
                   alt="Дэвид Карузо"
-                  className="w-full h-full object-cover rounded-3xl"
+                  className="w-full h-full object-cover rounded-full"
                 />
               </div>
-              <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-red-600">ДЭВИД КАРУЗО</h3>
-              <p className="text-sm text-gray-600 mb-2">научный консультант «ЭИ ДЕТИ»</p>
-              <p className="text-gray-700 leading-relaxed">
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Дэвид Карузо</h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
                 Профессор, исследователь центра развития эмоционального интеллекта Йельского университета, Ph.D., со-основатель научной теории эмоционального интеллекта
               </p>
             </div>
 
             <div className="flex flex-col items-center text-center">
-              <div className="relative w-64 h-64 mb-6">
+              <div className="relative w-40 h-40 mb-4">
                 <img 
                   src="https://cdn.poehali.dev/files/5ee9108a-9a60-4219-9d59-068d58faba31.jpeg" 
                   alt="Давиде Антоньяцца"
-                  className="w-full h-full object-cover"
-                  style={{clipPath: 'polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)'}}
+                  className="w-full h-full object-cover rounded-full"
                 />
               </div>
-              <h3 className="text-2xl md:text-3xl font-semibold mb-4">ДАВИДЕ АНТОНЬЯЦЦА</h3>
-              <p className="text-sm text-gray-600 mb-2">научный консультант «ЭИ ДЕТИ»</p>
-              <p className="text-gray-700 leading-relaxed">
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Давиде Антоньяцца</h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
                 Профессор Университета прикладных наук Швейцарии, M.Ed., мировой эксперт в области детского эмоционального интеллекта
               </p>
             </div>
 
             <div className="flex flex-col items-center text-center">
-              <div className="relative w-64 h-64 mb-6">
+              <div className="relative w-40 h-40 mb-4">
                 <img 
                   src="https://cdn.poehali.dev/files/74b4b8d5-ff9d-49f7-9481-67c6067fbdd0.jpeg" 
                   alt="Недашковская Лия Томазиевна"
-                  className="w-full h-full object-cover"
-                  style={{clipPath: 'polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%)', transform: 'rotate(-5deg)'}}
+                  className="w-full h-full object-cover rounded-full"
                 />
               </div>
-              <h3 className="text-2xl md:text-3xl font-semibold mb-4">Недашковская Лия Томазиевна</h3>
-              <p className="text-sm text-gray-600 mb-2">Семейный Психолог</p>
-              <p className="text-gray-700 leading-relaxed">
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Недашковская Лия Томазиевна</h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
                 Руководитель центра «ЭИ ДЕТИ» в г.Владивосток, преподаватель, специалист в области развития ЭИ у детей и взрослых
               </p>
             </div>
