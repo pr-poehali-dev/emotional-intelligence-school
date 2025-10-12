@@ -407,7 +407,7 @@ const Hero = () => {
             <div className="flex flex-col items-center text-center">
               <div className="relative w-64 h-64 mb-6">
                 <img 
-                  src="https://cdn.poehali.dev/files/bfad0b1d-a3ff-46f0-b92c-f0ff758ecfa6.jpeg" 
+                  src="https://cdn.poehali.dev/files/de366626-0f8d-471c-8ed9-0ec733a293e7.jpeg" 
                   alt="Дэвид Карузо"
                   className="w-full h-full object-cover rounded-3xl"
                 />
