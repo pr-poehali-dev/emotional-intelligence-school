@@ -15,7 +15,7 @@ const Header = () => {
             className="w-16 h-16 rounded-full object-cover"
           />
           <div className="hidden md:block text-sm text-gray-700">
-            г. Владивосток, ул. Русская 17
+            г. Владивосток
           </div>
         </div>
         
