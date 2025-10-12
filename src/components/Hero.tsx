@@ -1,317 +1,184 @@
 import { Button } from '@/components/ui/button';
-import Icon from '@/components/ui/icon';
 
 const Hero = () => {
   return (
     <>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 via-secondary/20 to-accent/10 py-20 relative overflow-hidden">
-        <div className="absolute top-10 right-10 w-48 h-48 rounded-full overflow-hidden opacity-20 hidden lg:block">
-          <img 
-            src="https://cdn.poehali.dev/files/2efebe2e-25da-43c2-9774-207638c0b7af.jpeg" 
-            alt="Эмоции - это суперсила. Развиваем эмоциональный интеллект" 
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div className="absolute bottom-10 left-10 w-32 h-32 rounded-full overflow-hidden opacity-20 hidden lg:block">
-          <img 
-            src="/img/02f1d162-c276-4bfb-a33b-fd6849aaae8d.jpg" 
-            alt="Дети выражают эмоции" 
-            className="w-full h-full object-cover"
-          />
-        </div>
-        <div className="container mx-auto px-4 text-center relative z-10">
-          <div className="max-w-4xl mx-auto">
-            <h1 className="text-2xl md:text-4xl font-semibold mb-6 text-foreground leading-relaxed">
-              Развитие эмоционального интеллекта для детей от 5-16 лет
-            </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-              Помогаем детям понимать свои эмоции, строить крепкие отношения и уверенно идти к своим целям
-            </p>
-            <div className="flex justify-center mb-12">
-              <Button size="lg" className="text-lg px-8 py-6 h-auto" asChild>
-                <a href="https://wa.me/message/6YQROAKYU6PAC1">
-                  <Icon name="Gift" size={24} className="mr-2" />
-                  Получить бесплатный пробный урок
-                </a>
-              </Button>
+      <section className="relative min-h-[80vh] bg-gray-100 overflow-hidden">
+        <div className="absolute top-20 left-10 w-32 h-32 bg-purple-500 rounded-full opacity-50 blur-3xl"></div>
+        <div className="absolute bottom-20 right-10 w-48 h-48 bg-yellow-400 rounded-full opacity-50 blur-3xl"></div>
+        
+        <div className="container mx-auto px-4 py-12 relative z-10">
+          <h1 className="text-3xl md:text-5xl font-light text-gray-800 mb-6 max-w-3xl">
+            ТЕСТ ЭМОЦИОНАЛЬНОГО ИНТЕЛЛЕКТА ПОДРОСТКОВ (ТЭИП) 10-13 ЛЕТ
+          </h1>
+          <p className="text-base md:text-lg text-gray-700 mb-8 max-w-2xl">
+            Разработан при научной поддержке экспертов Института психологии РАН. 
+            Отчет для родителя и педагога + отчет для ребенка (на понятном для него языке) 
+            для оценки и построения траектории развития ключевых навыков XXI века. 
+            Легко интегрируется в образовательные платформы и LMS системы.
+          </p>
+          
+          <div className="relative mb-8">
+            <div className="absolute top-0 right-0 w-64 h-64 transform rotate-45">
+              <div className="w-full h-full bg-yellow-400 rounded-3xl"></div>
             </div>
             
-            {/* Video Section */}
-            <div className="mb-12 max-w-4xl mx-auto">
-              <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg">
-                <h3 className="text-xl md:text-2xl font-semibold mb-6 text-center">Наши занятия</h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  <div className="rounded-2xl overflow-hidden">
-                    <img 
-                      src="https://cdn.poehali.dev/files/35750b48-9357-4140-9f9f-cca7c225b815.jpeg"
-                      alt="Дети играют с развивающими игрушками"
-                      className="w-full h-48 object-cover"
-                    />
-                  </div>
-                  <div className="rounded-2xl overflow-hidden">
-                    <img 
-                      src="https://cdn.poehali.dev/files/65ed2f2f-21f3-4722-8ef2-336bd9e79242.jpeg"
-                      alt="Дети изучают эмоции в игровой форме"
-                      className="w-full h-48 object-cover"
-                    />
-                  </div>
-                  <div className="rounded-2xl overflow-hidden">
-                    <img 
-                      src="https://cdn.poehali.dev/files/de799000-fd3c-4aeb-808b-18f4e399e43a.jpeg"
-                      alt="Групповые занятия с детьми"
-                      className="w-full h-48 object-cover"
-                    />
-                  </div>
-                </div>
-              </div>
+            <div className="relative z-10 max-w-2xl">
+              <h2 className="text-2xl md:text-4xl font-light text-gray-800 mb-4">
+                ЭМОЦИИ — ЭТО СУПЕРСИЛА
+              </h2>
+              <p className="text-lg text-gray-700 mb-6">
+                Если знать, как ими пользоваться, они помогут решить любые задачи.
+              </p>
+              <Button 
+                className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-8 py-6 text-lg font-semibold"
+                asChild
+              >
+                <a href="https://wa.me/message/6YQROAKYU6PAC1">Подробнее о тесте</a>
+              </Button>
             </div>
-            <div className="max-w-4xl mx-auto">
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 mt-20">
+            <div className="relative min-h-[600px]">
               <img 
-                src="https://cdn.poehali.dev/files/62c9b32b-4a60-45ca-8977-b9a891e00188.jpeg" 
-                alt="Эмоции - это суперсила. Развиваем ключевой навык XXI века — эмоциональный интеллект" 
-                className="w-full h-auto rounded-2xl shadow-lg"
+                src="https://cdn.poehali.dev/files/712d9065-c3ad-4bfd-b570-04a80ce85251.png"
+                alt="Ребенок показывает эмоции"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Problems Section */}
-      <section className="py-20 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-2xl md:text-3xl font-semibold mb-6">Знакомые ситуации?</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Многие родители сталкиваются с похожими вызовами в воспитании детей
+      <section className="relative min-h-[90vh] bg-blue-600 overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-yellow-300 to-transparent"></div>
+        <div className="absolute top-20 right-0 w-96 h-96 bg-blue-700 rounded-full opacity-30 transform translate-x-32"></div>
+        <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-green-500 to-transparent"></div>
+        
+        <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-[90vh]">
+          <div className="max-w-2xl">
+            <h2 className="text-3xl md:text-5xl font-light text-white mb-6">
+              НЕ БЫВАЕТ ПЛОХИХ ЭМОЦИЙ
+            </h2>
+            <p className="text-lg md:text-xl text-white/90 mb-8">
+              Суперребенок научится работать с каждой эмоцией. Ведь даже грусть может помочь — например, сосредоточиться на контрольной.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                icon: "Angry",
-                title: "Частые истерики",
-                description: "Ребёнок не может справиться с эмоциями, закатывает истерики по любому поводу"
-              },
-              {
-                icon: "UserX",
-                title: "Проблемы в общении",
-                description: "Трудности в дружбе, конфликты со сверстниками, замкнутость"
-              },
-              {
-                icon: "TrendingDown",
-                title: "Низкая самооценка",
-                description: "Ребёнок не верит в себя, боится пробовать новое, избегает трудностей"
-              },
-              {
-                icon: "AlertTriangle",
-                title: "Тревожность",
-                description: "Постоянные переживания, страхи, трудности с адаптацией к изменениям"
-              },
-              {
-                icon: "MessageSquareX",
-                title: "Не слушается",
-                description: "Игнорирует просьбы, спорит, не принимает правила и границы"
-              },
-              {
-                icon: "BookOpen",
-                title: "Проблемы в учёбе",
-                description: "Нет мотивации учиться, быстро сдаётся, не может сосредоточиться"
-              }
-            ].map((problem, index) => (
-              <div key={index} className="bg-white rounded-2xl p-6 shadow-sm">
-                <div className="w-12 h-12 bg-destructive/20 rounded-full flex items-center justify-center mb-4">
-                  <Icon name={problem.icon} size={24} className="text-destructive" />
-                </div>
-                <h3 className="text-lg font-semibold mb-3">{problem.title}</h3>
-                <p className="text-muted-foreground">{problem.description}</p>
-              </div>
-            ))}
-          </div>
-          <div className="text-center mt-12">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
-              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6">
-                <h3 className="text-lg font-semibold mb-3">Узнайте больше на пробном уроке!</h3>
-                <Button size="lg" className="w-full" asChild>
-                  <a href="https://wa.me/message/6YQROAKYU6PAC1">
-                    <Icon name="Gift" size={20} className="mr-2" />
-                    Записаться бесплатно
-                  </a>
-                </Button>
-              </div>
-              <div className="bg-blue-500 backdrop-blur-sm rounded-2xl p-6">
-                <h3 className="text-lg font-semibold mb-3 text-white">Присоединяйтесь к нашему сообществу</h3>
-                <Button variant="secondary" size="lg" className="w-full bg-white text-blue-500 hover:bg-gray-100" asChild>
-                  <a href="https://t.me/eideti_vladivostok" target="_blank" rel="noopener noreferrer">
-                    <Icon name="MessageCircle" size={20} className="mr-2" />
-                    Telegram канал
-                  </a>
-                </Button>
-              </div>
+          
+          <div className="flex justify-center items-end">
+            <div className="relative">
+              <img 
+                src="https://cdn.poehali.dev/files/a46bf0c7-0511-40bb-a0fb-af5aa7442f3a.png"
+                alt="Ребенок в синих очках"
+                className="w-full max-w-md h-auto object-contain"
+              />
             </div>
+          </div>
+          
+          <div className="flex justify-center">
+            <Button 
+              className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
+              asChild
+            >
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+            </Button>
           </div>
         </div>
       </section>
 
-      {/* Solution Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-2xl md:text-3xl font-semibold mb-6">Что даёт развитие эмоционального интеллекта?</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Эмоциональный интеллект — это способность понимать и управлять своими эмоциями, 
-              а также эффективно взаимодействовать с другими людьми
+      <section className="relative min-h-[90vh] bg-green-500 overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-blue-600 to-transparent"></div>
+        <div className="absolute top-32 left-10 w-64 h-64 bg-green-400 rounded-full opacity-40"></div>
+        <div className="absolute bottom-0 right-0 w-full h-64 bg-gradient-to-t from-red-600 to-transparent"></div>
+        
+        <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-[90vh]">
+          <div className="max-w-2xl">
+            <h2 className="text-3xl md:text-5xl font-light text-white mb-6">
+              ОБЩЕНИЕ
+            </h2>
+            <p className="text-lg md:text-xl text-white/90 mb-8">
+              Супердетям проще понимать окружающих. Они умеют дружить, заботиться, сопереживать, убеждать.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="mb-8">
-                <img 
-                  src="https://cdn.poehali.dev/files/d33645cc-2dd2-4c02-a7e6-09028121d9c5.jpeg" 
-                  alt="Семейные руки держат буквы FAMILY - символ единства и семейных ценностей" 
-                  className="w-full h-64 object-cover rounded-2xl shadow-lg"
-                />
-              </div>
-              <div className="space-y-8">
-                {[
-                  {
-                    icon: "Heart",
-                    title: "Эмоциональная стабильность",
-                    description: "Ребёнок учится распознавать и регулировать свои эмоции, становится более спокойным и уверенным"
-                  },
-                  {
-                    icon: "Users",
-                    title: "Лучшие отношения",
-                    description: "Развивает эмпатию, учится понимать других людей, легче заводит друзей и решает конфликты"
-                  },
-                  {
-                    icon: "TrendingUp",
-                    title: "Высокая самооценка",
-                    description: "Верит в свои силы, не боится ошибок, готов принимать вызовы и достигать целей"
-                  },
-                  {
-                    icon: "Star",
-                    title: "Успех в учёбе и жизни",
-                    description: "Мотивация, концентрация внимания, лидерские качества — всё это приходит с развитым ЭИ"
-                  }
-                ].map((benefit, index) => (
-                  <div key={index} className="flex gap-4">
-                    <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Icon name={benefit.icon} size={24} className="text-primary" />
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold mb-2">{benefit.title}</h3>
-                      <p className="text-muted-foreground">{benefit.description}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="bg-gradient-to-br from-primary/10 to-secondary/20 rounded-3xl p-8 text-center">
-              <div className="w-24 h-24 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
-                <Icon name="Lightbulb" size={48} className="text-primary-foreground" />
-              </div>
-              <h3 className="text-xl md:text-2xl font-semibold mb-4">Научные факты</h3>
-              <div className="space-y-4">
-                <div className="bg-white/80 rounded-xl p-4">
-                  <p className="text-3xl font-bold text-primary mb-1">90%</p>
-                  <p className="text-sm text-muted-foreground">успеха в жизни зависит от ЭИ</p>
-                </div>
-                <div className="bg-white/80 rounded-xl p-4">
-                  <p className="text-3xl font-bold text-primary mb-1">2х</p>
-                  <p className="text-sm text-muted-foreground">выше доходы у людей с развитым ЭИ</p>
-                </div>
-                <div className="bg-white/80 rounded-xl p-4">
-                  <p className="text-3xl font-bold text-primary mb-1">75%</p>
-                  <p className="text-sm text-muted-foreground">карьерных провалов связаны с низким ЭИ</p>
-                </div>
-              </div>
-            </div>
-            <div className="mt-12">
-              <h3 className="text-xl md:text-2xl font-semibold mb-6 text-center text-red-600">Мощная научная методика</h3>
-              <div className="bg-white/80 rounded-xl p-6 mb-6">
-                <h4 className="text-lg font-semibold mb-4">Научный подход - наш ДНК</h4>
-                <p className="text-muted-foreground mb-4">
-                  Мы сотрудничаем с ведущими учеными мира в области ЭИ, используем только лучшие мировые практики, доказавшие свою эффективность.
-                </p>
-                <div className="bg-primary/10 rounded-lg p-4">
-                  <p className="font-semibold mb-2">«ЭИ ДЕТИ» - спикеры самого авторитетного мероприятия по ЭИ в мире</p>
-                  <p className="text-sm text-muted-foreground">Международный Конгресс ICEI (Австралия, 2019)</p>
-                </div>
-              </div>
-              <h4 className="text-lg md:text-xl font-semibold mb-6 text-center">Наши специалисты</h4>
-              <div className="space-y-6">
-                <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
-                  <img 
-                    src="https://cdn.poehali.dev/files/d1b6a6a7-da6a-46e9-a144-405c727d83db.jpeg" 
-                    alt="Давиде Антоньяцца" 
-                    className="w-16 h-16 rounded-full object-cover"
-                  />
-                  <div>
-                    <h4 className="font-semibold">ДАВИДЕ АНТОНЬЯЦЦА</h4>
-                    <p className="text-sm text-muted-foreground mb-1">научный консультант «ЭИ ДЕТИ»</p>
-                    <p className="text-sm text-muted-foreground">Профессор Университета прикладных наук Швейцарии, M.Ed., мировой эксперт в области детского эмоционального интеллекта</p>
-                  </div>
-                </div>
-                <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
-                  <img 
-                    src="https://cdn.poehali.dev/files/bcb9ce9b-607a-4280-9dca-6a97c776f31f.jpeg" 
-                    alt="Научный консультант" 
-                    className="w-16 h-16 rounded-full object-cover"
-                  />
-                  <div>
-                    <h4 className="font-semibold">ДЭВИД КАРУЗО — научный консультант «ЭИ ДЕТИ»</h4>
-                    <p className="text-sm text-muted-foreground">Профессор, исследователь центра развития эмоционального интеллекта Йельского университета, Ph.D., со-основатель научной теории эмоционального интеллекта</p>
-                  </div>
-                </div>
-                <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
-                  <img 
-                    src="https://cdn.poehali.dev/files/6bb65a60-cd10-4e1c-8c9f-b571cace4792.jpeg" 
-                    alt="Е.А.Сергиенко" 
-                    className="w-16 h-16 rounded-full object-cover"
-                  />
-                  <div>
-                    <h4 className="font-semibold">Е.А.СЕРГИЕНКО</h4>
-                    <p className="text-sm text-muted-foreground mb-1">научный консультант «ЭИ ДЕТИ»</p>
-                    <p className="text-sm text-muted-foreground">Профессор, главный научный сотрудник Института Психологии Российской Академии Наук, доктор психологических наук</p>
-                  </div>
-                </div>
-                <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
-                  <img 
-                    src="https://cdn.poehali.dev/files/dc6cb549-c546-4a3f-a70e-59a32a7975b3.jpeg" 
-                    alt="Елена Хлевная" 
-                    className="w-16 h-16 rounded-full object-cover"
-                  />
-                  <div>
-                    <h4 className="font-semibold">ЕЛЕНА ХЛЕВНАЯ</h4>
-                    <p className="text-sm text-muted-foreground mb-1">научный руководитель «ЭИ ДЕТИ»</p>
-                    <p className="text-sm text-muted-foreground">Официальный представитель Европейской Ассоциации культурных и эмоционально-интеллектуальных проектов, кандидат психологических наук.</p>
-                  </div>
-                </div>
-                <div className="bg-white/80 rounded-xl p-4 flex items-center gap-4">
-                  <img 
-                    src="https://cdn.poehali.dev/files/e4c74629-1801-4af4-bccd-dd7f7a6fd9d9.jpeg" 
-                    alt="Лия Недашковская" 
-                    className="w-16 h-16 rounded-full object-cover"
-                  />
-                  <div>
-                    <h4 className="font-semibold">ЛИЯ НЕДАШКОВСКАЯ</h4>
-                    <p className="text-sm text-muted-foreground">Психолог, преподаватель, специалист по развитию ЭИ, руководитель проекта в г.Владивосток</p>
-                  </div>
-                </div>
-              </div>
+          
+          <div className="flex justify-center items-end">
+            <div className="relative">
+              <div className="absolute top-10 left-10 w-48 h-48 bg-green-400 rounded-full opacity-40"></div>
+              <img 
+                src="https://cdn.poehali.dev/files/608d1eaf-6267-4139-812e-4cf27929b766.png"
+                alt="Ребенок улыбается"
+                className="relative z-10 w-full max-w-md h-auto object-contain"
+              />
             </div>
           </div>
-          <div className="text-center mt-16">
-            <div className="bg-primary/10 rounded-2xl p-8 max-w-2xl mx-auto">
-              <h3 className="text-xl md:text-2xl font-semibold mb-4">Готовы начать развивать ЭИ у вашего ребёнка?</h3>
-              <p className="text-muted-foreground mb-6">Попробуйте наш подход на бесплатном пробном уроке</p>
-              <Button size="lg" className="text-lg px-8" asChild>
-                <a href="https://wa.me/message/6YQROAKYU6PAC1">
-                  <Icon name="Calendar" size={20} className="mr-2" />
-                  Записаться на пробный урок
-                </a>
-              </Button>
+          
+          <div className="flex justify-center">
+            <Button 
+              className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
+              asChild
+            >
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      <section className="relative min-h-[90vh] bg-red-600 overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-green-500 to-transparent"></div>
+        <div className="absolute top-20 right-10 w-96 h-96 bg-green-400 rounded-full opacity-30 transform translate-x-32"></div>
+        <div className="absolute bottom-10 left-10 w-64 h-64 bg-yellow-400 rounded-full opacity-40"></div>
+        
+        <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-[90vh]">
+          <div className="max-w-2xl">
+            <h2 className="text-3xl md:text-5xl font-light text-white mb-6">
+              НЕ ВСЕ СРАЗУ
+            </h2>
+            <p className="text-lg md:text-xl text-white/90 mb-8">
+              Иногда распознать эмоции и сладить с ними бывает не так просто.
+            </p>
+          </div>
+          
+          <div className="flex justify-center items-end">
+            <div className="relative">
+              <img 
+                src="https://cdn.poehali.dev/files/15c24f11-ce16-452f-b5f8-0ffc74aa5f51.png"
+                alt="Ребенок в костюме супергероя"
+                className="w-full max-w-md h-auto object-contain"
+              />
+            </div>
+          </div>
+          
+          <div className="flex justify-center">
+            <Button 
+              className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
+              asChild
+            >
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-gray-100 py-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl">
+            <h2 className="text-3xl md:text-4xl font-light text-gray-800 mb-8">
+              СУПЕРВЗРОСЛЫЕ
+            </h2>
+            <p className="text-lg text-gray-700 mb-12">
+              Из супердетей вырастают эмоционально грамотные взрослые. Например, супервзрослый не затаит злость, 
+              а направит эту энергию на воплощение нового проекта.
+            </p>
+            
+            <div className="relative">
+              <div className="absolute top-0 left-0 w-32 h-32 bg-purple-500 rounded-full opacity-30"></div>
+              <div className="absolute bottom-0 right-0 w-48 h-48 bg-yellow-400 rounded-full opacity-30"></div>
+              <img 
+                src="https://cdn.poehali.dev/files/cad29b98-1ab9-4e09-9d42-a438f185ed80.png"
+                alt="Взрослый в свитере с молнией"
+                className="relative z-10 w-full h-auto object-contain rounded-2xl"
+              />
             </div>
           </div>
         </div>

@@ -2,70 +2,65 @@ import Icon from '@/components/ui/icon';
 
 const Footer = () => {
   return (
-    <footer id="contacts" className="bg-foreground text-background py-16">
+    <footer id="contacts" className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-3 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <div className="flex items-center space-x-3 mb-4">
               <img 
                 src="https://cdn.poehali.dev/files/24909471-9ed8-4eb8-a543-12ad2286d726.jpeg" 
-                alt="Логотип школы ЭИ gemu" 
-                className="w-12 h-12 rounded-full object-cover shadow-md"
+                alt="Логотип ЭИ ДЕТИ" 
+                className="w-12 h-12 rounded-full object-cover"
               />
-              <h3 className="text-xl font-bold">ЭИ • gemu</h3>
+              <h3 className="text-xl font-bold">ЭИ ДЕТИ</h3>
             </div>
-            <p className="text-background/80 mb-6 max-w-md">
-              Онлайн школа развития эмоционального интеллекта для детей от 6 до 16 лет. 
-              Помогаем детям стать увереннее, счастливее и успешнее.
+            <p className="text-gray-400 text-sm">
+              Развитие эмоционального интеллекта для детей
             </p>
-            <div className="flex space-x-4">
-              <div className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center cursor-pointer hover:bg-primary/30 transition-colors">
-                <Icon name="MessageCircle" size={20} className="text-background" />
-              </div>
-              <div className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center cursor-pointer hover:bg-primary/30 transition-colors">
-                <Icon name="Mail" size={20} className="text-background" />
-              </div>
-              <div className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center cursor-pointer hover:bg-primary/30 transition-colors">
-                <Icon name="Phone" size={20} className="text-background" />
-              </div>
-            </div>
           </div>
-          <div>
-            <h4 className="font-semibold mb-4">Программы</h4>
-            <ul className="space-y-2 text-background/80">
-              <li><a href="#" className="hover:text-background transition-colors">6-9 лет</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">10-13 лет</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">14-16 лет</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Пробный урок</a></li>
-            </ul>
-          </div>
+          
           <div>
             <h4 className="font-semibold mb-4">Контакты</h4>
-            <ul className="space-y-3 text-background/80">
-              <li className="flex items-center space-x-2">
-                <Icon name="Phone" size={16} />
-                <a href="tel:+79644448177" className="hover:text-background transition-colors">8 964 444 81 77</a>
-              </li>
+            <ul className="space-y-2 text-gray-400 text-sm">
               <li className="flex items-center space-x-2">
                 <Icon name="MapPin" size={16} />
-                <span>г. Владивосток</span>
+                <span>г. Владивосток, ул. Русская 17</span>
               </li>
-              <li className="flex items-center gap-2">
-                <Icon name="Mail" size={16} />
-                <span>info@eideti.ru</span>
-              </li>
-              <li className="flex items-center gap-2">
+              <li className="flex items-center space-x-2">
                 <Icon name="Phone" size={16} />
-                <span>+7 (999) 123-45-67</span>
+                <a href="tel:+79644448177" className="hover:text-white transition-colors">8 964 444 8177</a>
               </li>
-              <li className="flex items-center gap-2">
-                <Icon name="Clock" size={16} />
-                <span>Пн-Пт: 9:00-20:00</span>
+              <li className="flex items-center space-x-2">
+                <Icon name="Mail" size={16} />
+                <a href="mailto:info@eideti.ru" className="hover:text-white transition-colors">info@eideti.ru</a>
               </li>
             </ul>
           </div>
+          
+          <div>
+            <h4 className="font-semibold mb-4">Соцсети</h4>
+            <div className="flex space-x-3">
+              <a 
+                href="https://t.me/eideti_vladivostok" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"
+              >
+                <Icon name="MessageCircle" size={20} />
+              </a>
+              <a 
+                href="https://wa.me/message/6YQROAKYU6PAC1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"
+              >
+                <Icon name="Phone" size={20} />
+              </a>
+            </div>
+          </div>
         </div>
-        <div className="border-t border-background/20 mt-12 pt-8 text-center text-background/60">
+        
+        <div className="border-t border-gray-800 mt-8 pt-6 text-center text-gray-500 text-sm">
           <p>&copy; 2024 ЭИ ДЕТИ. Все права защищены.</p>
         </div>
       </div>
