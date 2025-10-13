@@ -548,7 +548,7 @@ const Hero = () => {
                   className="w-full bg-orange-500 text-white hover:bg-orange-600 py-2.5 text-sm rounded-full shadow-lg"
                   asChild
                 >
-                  <a href="https://wa.me/message/6YQROAKYU6PAC1">Отправить заявку</a>
+                  <a href="https://docs.google.com/document/d/1-aD2KiZ_0_s_z9EpEgIMn_hOFWin0vthS3zLNEpZwT4/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer">Отправить заявку</a>
                 </Button>
               </div>
             </form>
