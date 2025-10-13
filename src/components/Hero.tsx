@@ -528,15 +528,6 @@ const Hero = () => {
               </div>
               
               <div>
-                <label className="block text-center text-gray-700 mb-1 text-xs">Фамилия ребенка</label>
-                <input 
-                  type="text" 
-                  className="w-full bg-transparent border-b border-gray-700 px-2 py-1.5 text-center text-sm focus:outline-none focus:border-gray-900"
-                  required
-                />
-              </div>
-              
-              <div>
                 <label className="block text-center text-gray-700 mb-1 text-xs">Возраст ребенка</label>
                 <input 
                   type="number" 
