@@ -492,6 +492,81 @@ const Hero = () => {
         </div>
       </section>
 
+      <section className="py-16 bg-gray-50" id="contacts">
+        <div className="container mx-auto px-4">
+          <div className="max-w-2xl mx-auto bg-white rounded-3xl shadow-xl p-8">
+            <h2 className="text-3xl font-light text-gray-800 text-center mb-8">Запись на занятие</h2>
+            <p className="text-gray-600 text-center mb-8">Заполните форму, и мы свяжемся с вами для уточнения деталей</p>
+            
+            <form className="space-y-6">
+              <div>
+                <label className="block text-gray-700 mb-2 font-medium">Имя ребенка</label>
+                <input 
+                  type="text" 
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  placeholder="Введите имя"
+                  required
+                />
+              </div>
+              
+              <div>
+                <label className="block text-gray-700 mb-2 font-medium">Фамилия ребенка</label>
+                <input 
+                  type="text" 
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  placeholder="Введите фамилию"
+                  required
+                />
+              </div>
+              
+              <div>
+                <label className="block text-gray-700 mb-2 font-medium">Возраст ребенка</label>
+                <input 
+                  type="number" 
+                  min="5" 
+                  max="16"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  placeholder="Введите возраст (5-16 лет)"
+                  required
+                />
+              </div>
+              
+              <div>
+                <label className="block text-gray-700 mb-2 font-medium">Телефон родителя</label>
+                <input 
+                  type="tel" 
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  placeholder="+7 (XXX) XXX-XX-XX"
+                  required
+                />
+              </div>
+              
+              <div>
+                <label className="block text-gray-700 mb-2 font-medium">Email (необязательно)</label>
+                <input 
+                  type="email" 
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  placeholder="example@email.com"
+                />
+              </div>
+              
+              <Button 
+                type="submit"
+                className="w-full bg-purple-600 text-white hover:bg-purple-700 py-6 text-lg rounded-lg"
+              >
+                Отправить заявку
+              </Button>
+            </form>
+            
+            <div className="mt-8 pt-8 border-t border-gray-200 text-center text-gray-600">
+              <p className="mb-2">Или свяжитесь с нами напрямую:</p>
+              <p className="font-medium">Телефон: 8 964 444 8177</p>
+              <p className="text-sm mt-2">г.Владивосток, ул.Русская 17  каб.804/3</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {isProgramModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4" onClick={() => setIsProgramModalOpen(false)}>
           <div className="bg-white rounded-3xl max-w-4xl max-h-[90vh] overflow-y-auto p-8 relative" onClick={(e) => e.stopPropagation()}>
