@@ -17,6 +17,26 @@ const Footer = () => {
             <p className="text-gray-400 text-sm">
               Развитие эмоционального интеллекта для детей
             </p>
+            <div className="flex space-x-3 mt-4">
+              <a 
+                href="https://t.me/eideti_vladivostok" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                aria-label="Telegram"
+              >
+                <Icon name="Send" size={20} />
+              </a>
+              <a 
+                href="https://vk.com/eideti_vladivostok"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
+                aria-label="VK"
+              >
+                <Icon name="Share2" size={20} />
+              </a>
+            </div>
           </div>
           
           <div>
