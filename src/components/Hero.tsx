@@ -492,70 +492,70 @@ const Hero = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-gray-50" id="contacts">
+      <section className="py-16 bg-gray-50" id="contacts">
         <div className="container mx-auto px-4">
-          <div className="max-w-lg mx-auto bg-yellow-400 rounded-3xl shadow-2xl p-10">
-            <h2 className="text-3xl font-light text-center mb-10 text-gray-800" style={{ fontFamily: 'Georgia, serif' }}>
+          <div className="max-w-sm mx-auto bg-yellow-400 rounded-2xl shadow-xl p-6">
+            <h2 className="text-2xl font-light text-center mb-6 text-gray-800" style={{ fontFamily: 'Georgia, serif' }}>
               Запишитесь на<br />пробное занятие
             </h2>
             
-            <form className="space-y-6">
+            <form className="space-y-4">
               <div>
-                <label className="block text-center text-gray-700 mb-2 text-sm">Ваше имя</label>
+                <label className="block text-center text-gray-700 mb-1 text-xs">Ваше имя</label>
                 <input 
                   type="text" 
-                  className="w-full bg-transparent border-b-2 border-gray-700 px-2 py-2 text-center focus:outline-none focus:border-gray-900 placeholder-gray-600"
+                  className="w-full bg-transparent border-b border-gray-700 px-2 py-1.5 text-center text-sm focus:outline-none focus:border-gray-900"
                   required
                 />
               </div>
               
               <div>
-                <label className="block text-center text-gray-700 mb-2 text-sm">Телефон</label>
+                <label className="block text-center text-gray-700 mb-1 text-xs">Телефон</label>
                 <input 
                   type="tel" 
-                  className="w-full bg-transparent border-b-2 border-gray-700 px-2 py-2 text-center focus:outline-none focus:border-gray-900 placeholder-gray-600"
+                  className="w-full bg-transparent border-b border-gray-700 px-2 py-1.5 text-center text-sm focus:outline-none focus:border-gray-900"
                   required
                 />
               </div>
               
               <div>
-                <label className="block text-center text-gray-700 mb-2 text-sm">Имя ребенка</label>
+                <label className="block text-center text-gray-700 mb-1 text-xs">Имя ребенка</label>
                 <input 
                   type="text" 
-                  className="w-full bg-transparent border-b-2 border-gray-700 px-2 py-2 text-center focus:outline-none focus:border-gray-900 placeholder-gray-600"
+                  className="w-full bg-transparent border-b border-gray-700 px-2 py-1.5 text-center text-sm focus:outline-none focus:border-gray-900"
                   required
                 />
               </div>
               
               <div>
-                <label className="block text-center text-gray-700 mb-2 text-sm">Фамилия ребенка</label>
+                <label className="block text-center text-gray-700 mb-1 text-xs">Фамилия ребенка</label>
                 <input 
                   type="text" 
-                  className="w-full bg-transparent border-b-2 border-gray-700 px-2 py-2 text-center focus:outline-none focus:border-gray-900 placeholder-gray-600"
+                  className="w-full bg-transparent border-b border-gray-700 px-2 py-1.5 text-center text-sm focus:outline-none focus:border-gray-900"
                   required
                 />
               </div>
               
               <div>
-                <label className="block text-center text-gray-700 mb-2 text-sm">Возраст ребенка</label>
+                <label className="block text-center text-gray-700 mb-1 text-xs">Возраст ребенка</label>
                 <input 
                   type="number" 
                   min="5" 
                   max="16"
-                  className="w-full bg-transparent border-b-2 border-gray-700 px-2 py-2 text-center focus:outline-none focus:border-gray-900 placeholder-gray-600"
+                  className="w-full bg-transparent border-b border-gray-700 px-2 py-1.5 text-center text-sm focus:outline-none focus:border-gray-900"
                   placeholder="5-16 лет"
                   required
                 />
               </div>
               
-              <div className="pt-4">
-                <p className="text-xs text-gray-700 text-center mb-4">
-                  Нажимая "отправить заявку", вы соглашаетесь на <span className="text-blue-700">обработку персональных данных</span>. Подробнее в политике.
+              <div className="pt-3">
+                <p className="text-xs text-gray-700 text-center mb-3 leading-tight">
+                  Нажимая "отправить заявку", вы соглашаетесь на <span className="text-blue-700">обработку персональных данных</span>.
                 </p>
                 
                 <Button 
                   type="submit"
-                  className="w-full bg-orange-500 text-white hover:bg-orange-600 py-3 text-base rounded-full shadow-lg"
+                  className="w-full bg-orange-500 text-white hover:bg-orange-600 py-2.5 text-sm rounded-full shadow-lg"
                 >
                   Отправить заявку
                 </Button>
