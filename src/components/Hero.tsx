@@ -75,7 +75,7 @@ const Hero = () => {
               className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold z-20"
               onClick={() => setIsModalOpen(true)}
             >
-              Запись на пробное занятие
+              Подробнее о тесте
             </Button>
           </div>
         </div>
