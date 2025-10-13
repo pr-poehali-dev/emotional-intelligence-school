@@ -1,0 +1,41 @@
+{
+  "tests": [
+    {
+      "name": "Test OPTIONS request for CORS",
+      "method": "OPTIONS",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": "",
+      "bodyMatcher": "exact"
+    },
+    {
+      "name": "Test POST with valid data",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "parent_name": "Иван Иванов",
+        "phone": "+79991234567",
+        "child_name": "Петя",
+        "child_age": 8
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true
+      },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Test POST with invalid age",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "parent_name": "Иван Иванов",
+        "phone": "+79991234567",
+        "child_name": "Петя",
+        "child_age": 3
+      },
+      "expectedStatus": 422,
+      "bodyMatcher": "partial"
+    }
+  ]
+}

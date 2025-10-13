@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "name": "OPTIONS request for CORS",
+      "method": "OPTIONS",
+      "path": "/",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Valid application submission",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "parent_name": "Анна Иванова",
+        "phone": "+79991234567",
+        "child_name": "Мария",
+        "child_age": 8
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true,
+        "message": "string"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}

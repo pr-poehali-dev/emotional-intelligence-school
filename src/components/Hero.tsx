@@ -7,6 +7,15 @@ const Hero = () => {
   const [isProgramModalOpen, setIsProgramModalOpen] = useState(false);
   const [isProgram2ModalOpen, setIsProgram2ModalOpen] = useState(false);
   const [isProgram3ModalOpen, setIsProgram3ModalOpen] = useState(false);
+  
+  const [formData, setFormData] = useState({
+    parent_name: '',
+    phone: '',
+    child_name: '',
+    child_age: ''
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitMessage, setSubmitMessage] = useState('');
   return (
     <>
       <section className="bg-white py-6">
@@ -499,11 +508,40 @@ const Hero = () => {
               Запишитесь на<br />пробное занятие
             </h2>
             
-            <form className="space-y-4">
+            <form className="space-y-4" onSubmit={async (e) => {
+              e.preventDefault();
+              setIsSubmitting(true);
+              setSubmitMessage('');
+              
+              try {
+                const response = await fetch('https://functions.poehali.dev/30761570-1118-421c-a9e0-d8301fdb7afe', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify(formData)
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok) {
+                  setSubmitMessage('Заявка успешно отправлена! Мы свяжемся с вами в ближайшее время.');
+                  setFormData({ parent_name: '', phone: '', child_name: '', child_age: '' });
+                } else {
+                  setSubmitMessage('Ошибка отправки. Попробуйте позже.');
+                }
+              } catch (error) {
+                setSubmitMessage('Ошибка отправки. Проверьте интернет-соединение.');
+              } finally {
+                setIsSubmitting(false);
+              }
+            }}>
               <div>
                 <label className="block text-center text-gray-700 mb-1 text-xs">Ваше имя</label>
                 <input 
                   type="text" 
+                  value={formData.parent_name}
+                  onChange={(e) => setFormData({...formData, parent_name: e.target.value})}
                   className="w-full bg-transparent border-b border-gray-700 px-2 py-1.5 text-center text-sm focus:outline-none focus:border-gray-900"
                   required
                 />
@@ -513,6 +551,8 @@ const Hero = () => {
                 <label className="block text-center text-gray-700 mb-1 text-xs">Телефон</label>
                 <input 
                   type="tel" 
+                  value={formData.phone}
+                  onChange={(e) => setFormData({...formData, phone: e.target.value})}
                   className="w-full bg-transparent border-b border-gray-700 px-2 py-1.5 text-center text-sm focus:outline-none focus:border-gray-900"
                   required
                 />
@@ -522,6 +562,8 @@ const Hero = () => {
                 <label className="block text-center text-gray-700 mb-1 text-xs">Имя ребенка</label>
                 <input 
                   type="text" 
+                  value={formData.child_name}
+                  onChange={(e) => setFormData({...formData, child_name: e.target.value})}
                   className="w-full bg-transparent border-b border-gray-700 px-2 py-1.5 text-center text-sm focus:outline-none focus:border-gray-900"
                   required
                 />
@@ -533,6 +575,8 @@ const Hero = () => {
                   type="number" 
                   min="5" 
                   max="16"
+                  value={formData.child_age}
+                  onChange={(e) => setFormData({...formData, child_age: e.target.value})}
                   className="w-full bg-transparent border-b border-gray-700 px-2 py-1.5 text-center text-sm focus:outline-none focus:border-gray-900"
                   placeholder="5-16 лет"
                   required
@@ -544,11 +588,18 @@ const Hero = () => {
                   Нажимая "отправить заявку", вы соглашаетесь на <span className="text-blue-700">обработку персональных данных</span>.
                 </p>
                 
+                {submitMessage && (
+                  <p className={`text-xs text-center mb-3 ${submitMessage.includes('успешно') ? 'text-green-700' : 'text-red-700'}`}>
+                    {submitMessage}
+                  </p>
+                )}
+                
                 <Button 
-                  className="w-full bg-orange-500 text-white hover:bg-orange-600 py-2.5 text-sm rounded-full shadow-lg"
-                  asChild
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="w-full bg-orange-500 text-white hover:bg-orange-600 py-2.5 text-sm rounded-full shadow-lg disabled:opacity-50"
                 >
-                  <a href="https://docs.google.com/document/d/1-aD2KiZ_0_s_z9EpEgIMn_hOFWin0vthS3zLNEpZwT4/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer">Отправить заявку</a>
+                  {isSubmitting ? 'Отправка...' : 'Отправить заявку'}
                 </Button>
               </div>
             </form>
