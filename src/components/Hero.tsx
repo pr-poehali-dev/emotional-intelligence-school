@@ -492,78 +492,74 @@ const Hero = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50" id="contacts">
-        <div className="container mx-auto px-4">
-          <div className="max-w-2xl mx-auto bg-white rounded-3xl shadow-xl p-8">
-            <h2 className="text-3xl font-light text-gray-800 text-center mb-8">Запись на занятие</h2>
-            <p className="text-gray-600 text-center mb-8">Заполните форму, и мы свяжемся с вами для уточнения деталей</p>
+      <section className="min-h-screen bg-yellow-400 flex items-center justify-center py-16 px-4" id="contacts">
+        <div className="w-full max-w-md">
+          <h2 className="text-3xl font-light text-center mb-12 text-gray-800" style={{ fontFamily: 'Georgia, serif' }}>
+            Запишитесь на<br />пробное занятие
+          </h2>
+          
+          <form className="space-y-8">
+            <div>
+              <label className="block text-center text-gray-700 mb-3 text-sm">Ваше имя</label>
+              <input 
+                type="text" 
+                className="w-full bg-transparent border-b-2 border-gray-700 px-2 py-3 text-center focus:outline-none focus:border-gray-900 placeholder-gray-600"
+                required
+              />
+            </div>
             
-            <form className="space-y-6">
-              <div>
-                <label className="block text-gray-700 mb-2 font-medium">Имя ребенка</label>
-                <input 
-                  type="text" 
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
-                  placeholder="Введите имя"
-                  required
-                />
-              </div>
-              
-              <div>
-                <label className="block text-gray-700 mb-2 font-medium">Фамилия ребенка</label>
-                <input 
-                  type="text" 
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
-                  placeholder="Введите фамилию"
-                  required
-                />
-              </div>
-              
-              <div>
-                <label className="block text-gray-700 mb-2 font-medium">Возраст ребенка</label>
-                <input 
-                  type="number" 
-                  min="5" 
-                  max="16"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
-                  placeholder="Введите возраст (5-16 лет)"
-                  required
-                />
-              </div>
-              
-              <div>
-                <label className="block text-gray-700 mb-2 font-medium">Телефон родителя</label>
-                <input 
-                  type="tel" 
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
-                  placeholder="+7 (XXX) XXX-XX-XX"
-                  required
-                />
-              </div>
-              
-              <div>
-                <label className="block text-gray-700 mb-2 font-medium">Email (необязательно)</label>
-                <input 
-                  type="email" 
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
-                  placeholder="example@email.com"
-                />
-              </div>
+            <div>
+              <label className="block text-center text-gray-700 mb-3 text-sm">Телефон</label>
+              <input 
+                type="tel" 
+                className="w-full bg-transparent border-b-2 border-gray-700 px-2 py-3 text-center focus:outline-none focus:border-gray-900 placeholder-gray-600"
+                required
+              />
+            </div>
+            
+            <div>
+              <label className="block text-center text-gray-700 mb-3 text-sm">Имя ребенка</label>
+              <input 
+                type="text" 
+                className="w-full bg-transparent border-b-2 border-gray-700 px-2 py-3 text-center focus:outline-none focus:border-gray-900 placeholder-gray-600"
+                required
+              />
+            </div>
+            
+            <div>
+              <label className="block text-center text-gray-700 mb-3 text-sm">Фамилия ребенка</label>
+              <input 
+                type="text" 
+                className="w-full bg-transparent border-b-2 border-gray-700 px-2 py-3 text-center focus:outline-none focus:border-gray-900 placeholder-gray-600"
+                required
+              />
+            </div>
+            
+            <div>
+              <label className="block text-center text-gray-700 mb-3 text-sm">Возраст ребенка</label>
+              <input 
+                type="number" 
+                min="5" 
+                max="16"
+                className="w-full bg-transparent border-b-2 border-gray-700 px-2 py-3 text-center focus:outline-none focus:border-gray-900 placeholder-gray-600"
+                placeholder="5-16 лет"
+                required
+              />
+            </div>
+            
+            <div className="pt-6">
+              <p className="text-sm text-gray-700 text-center mb-6">
+                Нажимая "отправить заявку", вы соглашаетесь на <span className="text-blue-700">обработку персональных данных</span>. Подробнее в политике.
+              </p>
               
               <Button 
                 type="submit"
-                className="w-full bg-purple-600 text-white hover:bg-purple-700 py-6 text-lg rounded-lg"
+                className="w-full bg-orange-500 text-white hover:bg-orange-600 py-4 text-lg rounded-full shadow-lg"
               >
                 Отправить заявку
               </Button>
-            </form>
-            
-            <div className="mt-8 pt-8 border-t border-gray-200 text-center text-gray-600">
-              <p className="mb-2">Или свяжитесь с нами напрямую:</p>
-              <p className="font-medium">Телефон: 8 964 444 8177</p>
-              <p className="text-sm mt-2">г.Владивосток, ул.Русская 17  каб.804/3</p>
             </div>
-          </div>
+          </form>
         </div>
       </section>
 
