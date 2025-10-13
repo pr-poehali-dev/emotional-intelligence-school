@@ -545,10 +545,10 @@ const Hero = () => {
                 </p>
                 
                 <Button 
-                  type="submit"
                   className="w-full bg-orange-500 text-white hover:bg-orange-600 py-2.5 text-sm rounded-full shadow-lg"
+                  asChild
                 >
-                  Отправить заявку
+                  <a href="https://wa.me/message/6YQROAKYU6PAC1">Отправить заявку</a>
                 </Button>
               </div>
             </form>
