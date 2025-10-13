@@ -817,6 +817,14 @@ const Hero = () => {
               <Icon name="X" size={24} />
             </button>
             
+            <div className="mb-8">
+              <img 
+                src="https://cdn.poehali.dev/files/61e3a902-9200-4246-b2bb-8fb2af734dbe.jpeg" 
+                alt="ТЕСТ ЭМОЦИОНАЛЬНОГО ИНТЕЛЛЕКТА (ТЭИП) ДЛЯ ПОДРОСТКОВ 10-13 ЛЕТ" 
+                className="w-full rounded-2xl"
+              />
+            </div>
+            
             <h2 className="text-2xl md:text-3xl font-light text-gray-900 mb-6">
               О тесте ТЭИ-П
             </h2>
@@ -838,13 +846,45 @@ const Hero = () => {
                 Способности эмоционального интеллекта лежат в основе развития многих гибких навыков детей и подростков: коммуникативность, лидерские и социальные навыки, адаптивность к изменениям, стрессоустойчивость, эмпатичное поведение и др.
               </p>
               
+              <div className="my-6">
+                <img 
+                  src="https://cdn.poehali.dev/files/3997805e-ebe2-4098-837d-18f5897a4eb0.jpeg" 
+                  alt="ЧТО ДАЮТ РЕЗУЛЬТАТЫ" 
+                  className="w-full rounded-2xl"
+                />
+              </div>
+              
               <p>
                 Тест ТЭИ-П — задачная методика, объективно измеряющая способности эмоционального интеллекта и в отличие от опросников, основанных на самоотчете, она является наиболее надежным инструментом оценки.
               </p>
               
+              <div className="my-6">
+                <img 
+                  src="https://cdn.poehali.dev/files/1d5cd7aa-9b16-4662-b585-d3125111967c.jpeg" 
+                  alt="ЧТО ДАЮТ РЕЗУЛЬТАТЫ РЕБЕНКУ/РОДИТЕЛЮ" 
+                  className="w-full rounded-2xl"
+                />
+              </div>
+              
+              <div className="my-6">
+                <img 
+                  src="https://cdn.poehali.dev/files/b275d235-b05b-4749-bbdb-0a5924dafeba.jpeg" 
+                  alt="Ребенок супергерой" 
+                  className="w-full rounded-2xl"
+                />
+              </div>
+              
               <p>
                 Психометрические показатели теста соответствуют основным требованиям, предъявляемым к исследовательским методикам: показатели валидности и надежности находятся на достаточном уровне (Сергиенко Е.А. и др.).
               </p>
+              
+              <div className="my-6">
+                <img 
+                  src="https://cdn.poehali.dev/files/65c3609e-8e52-4967-b21b-dd6e5f31899d.jpeg" 
+                  alt="Время заполнения теста" 
+                  className="w-full rounded-2xl"
+                />
+              </div>
             </div>
             
             <div className="mt-8">
