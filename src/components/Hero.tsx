@@ -456,37 +456,37 @@ const Hero = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-b from-purple-500 to-purple-600">
+      <section className="py-12 bg-gradient-to-b from-purple-500 to-purple-600">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-light text-white text-center mb-12">Родители сообщают</h2>
+          <h2 className="text-3xl font-light text-white text-center mb-8">Родители сообщают</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            <div className="bg-purple-400 bg-opacity-40 rounded-3xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
-              <p className="text-white text-base leading-relaxed mb-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
+            <div className="bg-purple-400 bg-opacity-40 rounded-2xl p-4 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
+              <p className="text-white text-sm leading-relaxed mb-3">
                 Наверное, это самый главный бонус от программы. Сын стал чаще делиться со мной своими переживаниями, секретами. Наши отношения стали более теплыми. Мне очень нравятся мастер-классы для родителей по эмоциональному интеллекту, который проводит наша педагог Наталья. Всего за час она доносит такие важные и простые вещи до нас, родителей. Всем осознанным родителям очень рекомендую школу "ЭИ дети".
               </p>
-              <p className="text-white text-lg font-medium">Анна Игнатьева</p>
+              <p className="text-white text-base font-medium">Анна Игнатьева</p>
             </div>
 
-            <div className="bg-purple-400 bg-opacity-40 rounded-3xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
-              <p className="text-white text-base leading-relaxed mb-4">
+            <div className="bg-purple-400 bg-opacity-40 rounded-2xl p-4 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
+              <p className="text-white text-sm leading-relaxed mb-3">
                 Моему сыну Герману 5 с половиной лет и он активно занимается футболом. Я сам в прошлом был спортсменом и меня всегда интересовал вопрос управления эмоциями, поскольку в мире спорта это очень важно. Счастлив, что у моего сына есть возможность коснуться этой темы, в нашей школе футбола открылась еще школа развития эмоционального интеллекта «ЭИ дети». Герману все нравится, с удовольствием ходит на занятия и теперь знает, что такое спортивная злость.
               </p>
-              <p className="text-white text-lg font-medium">Владимир Гришковец</p>
+              <p className="text-white text-base font-medium">Владимир Гришковец</p>
             </div>
 
-            <div className="bg-purple-400 bg-opacity-40 rounded-3xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
-              <p className="text-white text-base leading-relaxed mb-4">
+            <div className="bg-purple-400 bg-opacity-40 rounded-2xl p-4 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
+              <p className="text-white text-sm leading-relaxed mb-3">
                 Очень замечательная программа! Мой сын теперь знает названия своих эмоций и выражает их словами.
               </p>
-              <p className="text-white text-lg font-medium">Анна Сытник</p>
+              <p className="text-white text-base font-medium">Анна Сытник</p>
             </div>
 
-            <div className="bg-purple-400 bg-opacity-40 rounded-3xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
-              <p className="text-white text-base leading-relaxed mb-4">
+            <div className="bg-purple-400 bg-opacity-40 rounded-2xl p-4 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
+              <p className="text-white text-sm leading-relaxed mb-3">
                 Здравствуйте! Я тщательно выбирала школу ЭИ для своего ребёнка! По совету моей подруги была выбрана именно ваша, чему я несказанно рада! Моя дочь с огромным удовольствием посещает занятия! Очень нравится Преподаватель Ксения, которая создаёт прекрасную атмосферу в классе! Её профессионализм, индивидуальный подход к каждому ребёнку и обратную связь с родителями! С Ув. Анна Ратиани
               </p>
-              <p className="text-white text-lg font-medium">Анна Ратиани</p>
+              <p className="text-white text-base font-medium">Анна Ратиани</p>
             </div>
           </div>
         </div>
