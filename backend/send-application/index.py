@@ -4,7 +4,10 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from typing import Dict, Any
-from pydantic import BaseModel, Field, EmailStr
+from pydantic import BaseModel, Field
+from datetime import datetime
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
 
 class ApplicationRequest(BaseModel):
     '''Модель заявки на пробное занятие'''
@@ -15,7 +18,7 @@ class ApplicationRequest(BaseModel):
 
 def handler(event: Dict[str, Any], context: Any) -> Dict[str, Any]:
     '''
-    Business: Обработка заявки на пробное занятие и отправка на email
+    Business: Обработка заявки на пробное занятие, отправка на email и в Google Таблицу
     Args: event - dict с httpMethod, body, headers
           context - объект с request_id, function_name
     Returns: HTTP ответ с результатом отправки
@@ -89,6 +92,35 @@ def handler(event: Dict[str, Any], context: Any) -> Dict[str, Any]:
     with smtplib.SMTP_SSL(smtp_host, smtp_port) as server:
         server.login(smtp_user, smtp_password)
         server.send_message(msg)
+    
+    # Сохранение в Google Таблицу
+    google_creds_json = os.environ.get('GOOGLE_SHEETS_CREDENTIALS')
+    google_sheet_id = os.environ.get('GOOGLE_SHEET_ID')
+    
+    if google_creds_json and google_sheet_id:
+        creds_dict = json.loads(google_creds_json)
+        credentials = service_account.Credentials.from_service_account_info(
+            creds_dict,
+            scopes=['https://www.googleapis.com/auth/spreadsheets']
+        )
+        service = build('sheets', 'v4', credentials=credentials)
+        
+        timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        values = [[
+            timestamp,
+            application.parent_name,
+            application.phone,
+            application.child_name,
+            str(application.child_age)
+        ]]
+        
+        body = {'values': values}
+        service.spreadsheets().values().append(
+            spreadsheetId=google_sheet_id,
+            range='A:E',
+            valueInputOption='RAW',
+            body=body
+        ).execute()
     
     return {
         'statusCode': 200,
