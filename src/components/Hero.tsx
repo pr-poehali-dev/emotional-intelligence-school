@@ -64,9 +64,9 @@ const Hero = () => {
             />
             <Button 
               className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold z-20"
-              asChild
+              onClick={() => setIsModalOpen(true)}
             >
-              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+              Протестируй ребенка
             </Button>
           </div>
         </div>
