@@ -66,7 +66,7 @@ const Hero = () => {
               className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold z-20"
               onClick={() => setIsModalOpen(true)}
             >
-              Протестируй ребенка
+              Запись на пробное занятие
             </Button>
           </div>
         </div>
@@ -97,7 +97,7 @@ const Hero = () => {
               className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
               asChild
             >
-              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Запись на пробное занятие</a>
             </Button>
           </div>
         </div>
@@ -129,7 +129,7 @@ const Hero = () => {
               className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold border-2 border-black"
               asChild
             >
-              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Запись на пробное занятие</a>
             </Button>
           </div>
         </div>
@@ -162,7 +162,7 @@ const Hero = () => {
               className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
               asChild
             >
-              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Запись на пробное занятие</a>
             </Button>
           </div>
         </div>
@@ -195,7 +195,7 @@ const Hero = () => {
               className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
               asChild
             >
-              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Запись на пробное занятие</a>
             </Button>
           </div>
         </div>
@@ -227,7 +227,7 @@ const Hero = () => {
               className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
               asChild
             >
-              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Запись на пробное занятие</a>
             </Button>
           </div>
         </div>
@@ -259,7 +259,7 @@ const Hero = () => {
               className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
               asChild
             >
-              <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Запись на пробное занятие</a>
             </Button>
           </div>
         </div>
@@ -892,7 +892,7 @@ const Hero = () => {
                 className="w-full bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-8 py-4 text-lg font-semibold"
                 asChild
               >
-                <a href="https://wa.me/message/6YQROAKYU6PAC1">Протестируй ребенка</a>
+                <a href="https://wa.me/message/6YQROAKYU6PAC1">Запись на пробное занятие</a>
               </Button>
             </div>
           </div>
