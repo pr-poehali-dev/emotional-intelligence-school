@@ -61,7 +61,7 @@ def handler(event: Dict[str, Any], context: Any) -> Dict[str, Any]:
     
     # Формирование email
     msg = MIMEMultipart('alternative')
-    msg['Subject'] = f'Новая заявка на пробное занятие - {application.child_name}'
+    msg['Subject'] = f'[ЭИ ДЕТИ ЗАЯВКИ] Новая заявка - {application.child_name}'
     msg['From'] = smtp_user
     msg['To'] = 'intrigai@mail.ru'
     
