@@ -29,7 +29,7 @@ const Hero = () => {
             <div className="absolute bottom-8 right-8 bg-white/90 backdrop-blur-sm rounded-lg p-4 shadow-lg">
               <div className="flex items-center gap-2 mb-2">
                 <Icon name="MapPin" size={18} className="text-purple-600" />
-                <span className="text-sm font-medium">офис 45</span>
+                <span className="text-sm font-medium">г. Владивосток, ул. Русская, оф. 804/3</span>
               </div>
               <div className="flex items-center gap-2">
                 <Icon name="Phone" size={18} className="text-purple-600" />
