@@ -319,7 +319,7 @@ const Hero = () => {
               className="bg-yellow-400 text-black hover:bg-yellow-500 rounded-full px-10 py-6 text-lg font-semibold"
               asChild
             >
-              <a href="https://wa.me/message/6YQROAKYU6PAC1">Записаться на занятия</a>
+              <a href="https://wa.me/message/6YQROAKYU6PAC1">Запись на пробное занятие</a>
             </Button>
           </div>
         </div>
