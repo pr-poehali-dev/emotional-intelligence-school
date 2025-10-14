@@ -26,14 +26,14 @@ const Hero = () => {
               alt="Международная школа развития эмоционального интеллекта" 
               className="w-full"
             />
-            <div className="absolute bottom-8 right-8 bg-white/90 backdrop-blur-sm rounded-lg p-4 shadow-lg">
-              <div className="flex items-center gap-2 mb-2">
-                <Icon name="MapPin" size={18} className="text-purple-600" />
-                <span className="text-sm font-medium">г. Владивосток, ул. Русская, оф. 804/3</span>
+            <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur-sm rounded-lg p-2 shadow-lg">
+              <div className="flex items-center gap-1 mb-1">
+                <Icon name="MapPin" size={14} className="text-purple-600" />
+                <span className="text-xs font-medium">г. Владивосток, ул. Русская, оф. 804/3</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Icon name="Phone" size={18} className="text-purple-600" />
-                <a href="tel:+79644448187" className="text-sm font-medium hover:text-purple-600 transition-colors">
+              <div className="flex items-center gap-1">
+                <Icon name="Phone" size={14} className="text-purple-600" />
+                <a href="tel:+79644448187" className="text-xs font-medium hover:text-purple-600 transition-colors">
                   +7 964 444-81-87
                 </a>
               </div>
