@@ -59,32 +59,6 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
-          <div>
-            <h4 className="font-semibold mb-4">Соцсети</h4>
-            <div className="flex space-x-3">
-              <a 
-                href="https://t.me/eideti_vladivostok" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"
-              >
-                <Icon name="MessageCircle" size={20} />
-              </a>
-              <a 
-                href="https://wa.me/message/6YQROAKYU6PAC1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"
-              >
-                <Icon name="Phone" size={20} />
-              </a>
-            </div>
-          </div>
-        </div>
-        
-        <div className="border-t border-gray-800 mt-8 pt-6 text-center text-gray-500 text-sm">
-          <p>&copy; 2024 ЭИ ДЕТИ. Все права защищены.</p>
         </div>
       </div>
     </footer>
