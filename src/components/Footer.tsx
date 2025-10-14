@@ -17,7 +17,8 @@ const Footer = () => {
             <p className="text-gray-400 text-sm">
               Развитие эмоционального интеллекта для детей
             </p>
-            <div className="flex space-x-3 mt-4">
+            <h4 className="font-semibold mt-4 mb-3">Соцсети</h4>
+            <div className="flex space-x-3">
               <a 
                 href="https://t.me/eideti_vladivostok" 
                 target="_blank" 
