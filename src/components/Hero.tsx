@@ -326,7 +326,8 @@ const Hero = () => {
                 <p className="text-sm md:text-base mb-2">
                   Эмоциональная подготовка к школе
                 </p>
-                <p className="text-lg md:text-xl font-semibold">4999₽</p>
+                <p className="text-lg md:text-xl font-semibold mb-1">4999₽</p>
+                <p className="text-xs opacity-80">(группа 6-8 чел.)</p>
               </button>
             </div>
 
@@ -340,7 +341,8 @@ const Hero = () => {
                 <p className="text-sm md:text-base mb-2">
                   Развиваем эмоциональный интеллект
                 </p>
-                <p className="text-lg md:text-xl font-semibold">4999₽</p>
+                <p className="text-lg md:text-xl font-semibold mb-1">4999₽</p>
+                <p className="text-xs opacity-80">(группа 6-8 чел.)</p>
               </button>
             </div>
 
@@ -354,7 +356,8 @@ const Hero = () => {
                 <p className="text-sm md:text-base mb-2">
                   Эмоциональное лидерство
                 </p>
-                <p className="text-lg md:text-xl font-semibold">5999₽</p>
+                <p className="text-lg md:text-xl font-semibold mb-1">5999₽</p>
+                <p className="text-xs opacity-80">(группа 6-8 чел.)</p>
               </button>
             </div>
 
