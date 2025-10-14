@@ -26,7 +26,7 @@ const Hero = () => {
               alt="Международная школа развития эмоционального интеллекта" 
               className="w-full"
             />
-            <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur-sm rounded-lg p-2 shadow-lg">
+            <div className="absolute bottom-4 right-12 bg-white/90 backdrop-blur-sm rounded-lg p-2 shadow-lg">
               <div className="flex items-start gap-1 mb-1">
                 <Icon name="MapPin" size={14} className="text-purple-600 mt-0.5" />
                 <span className="text-xs font-medium">
