@@ -357,6 +357,20 @@ const Hero = () => {
                 <p className="text-lg md:text-xl font-semibold">5999₽</p>
               </button>
             </div>
+
+            <div className="relative w-full max-w-[16rem]">
+              <a
+                href="https://wa.me/message/6YQROAKYU6PAC1"
+                className="block w-full bg-green-500 p-6 text-white text-center flex flex-col justify-center items-center transform transition-transform hover:scale-105 cursor-pointer" 
+                style={{borderRadius: '50% 50% 30% 70% / 40% 40% 60% 60%', aspectRatio: '1.1/1'}}
+              >
+                <h3 className="text-lg md:text-xl font-light mb-2">ИНДИВИДУАЛЬНОЕ</h3>
+                <p className="text-sm md:text-base mb-2">
+                  Сопровождение ребенка
+                </p>
+                <p className="text-lg md:text-xl font-semibold">3500₽/час</p>
+              </a>
+            </div>
           </div>
 
           <div className="flex justify-center mt-12">
