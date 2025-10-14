@@ -337,9 +337,10 @@ const Hero = () => {
                 style={{borderRadius: '30% 70% 70% 30% / 30% 30% 70% 70%', aspectRatio: '1.2/1'}}
               >
                 <h3 className="text-xl md:text-2xl font-light mb-2">7–10 ЛЕТ</h3>
-                <p className="text-sm md:text-base">
+                <p className="text-sm md:text-base mb-2">
                   Развиваем эмоциональный интеллект
                 </p>
+                <p className="text-lg md:text-xl font-semibold">4999₽</p>
               </button>
             </div>
 
