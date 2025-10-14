@@ -489,7 +489,7 @@ const Hero = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-light text-white text-center mb-8">Родители сообщают</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-xl mx-auto">
             <div className="bg-purple-400 bg-opacity-40 rounded-xl p-3 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
               <p className="text-white text-xs leading-relaxed mb-2">
                 Наверное, это самый главный бонус от программы. Сын стал чаще делиться со мной своими переживаниями, секретами. Наши отношения стали более теплыми. Мне очень нравятся мастер-классы для родителей по эмоциональному интеллекту, который проводит наша педагог Наталья. Всего за час она доносит такие важные и простые вещи до нас, родителей. Всем осознанным родителям очень рекомендую школу "ЭИ дети".
