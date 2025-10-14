@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="container mx-auto px-4">
           <div className="w-full max-w-4xl mx-auto">
             <img 
-              src="https://cdn.poehali.dev/files/3b3e065a-1a8f-4f2f-a592-c810fa497ea8.jpeg" 
+              src="https://cdn.poehali.dev/projects/4a1317c4-a1d1-4ba3-b07b-dca01270381c/files/7e269c2b-5f29-4251-90c2-d16a2b083102.jpg" 
               alt="Международная школа развития эмоционального интеллекта" 
               className="w-full"
             />
