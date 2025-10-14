@@ -28,14 +28,14 @@ const Hero = () => {
             />
             <div className="absolute bottom-8 right-12 bg-white/90 backdrop-blur-sm rounded-lg p-2 shadow-lg">
               <div className="flex items-start gap-1 mb-1">
-                <Icon name="MapPin" size={14} className="text-purple-600 mt-0.5" />
+                <Icon name="MapPin" size={14} className="text-orange-500 mt-0.5" />
                 <span className="text-xs font-medium">
                   г. Владивосток,<br />ул. Русская, оф. 804/3
                 </span>
               </div>
               <div className="flex items-center gap-1">
-                <Icon name="Phone" size={14} className="text-purple-600" />
-                <a href="tel:+79644448187" className="text-xs font-medium hover:text-purple-600 transition-colors">
+                <Icon name="Phone" size={14} className="text-orange-500" />
+                <a href="tel:+79644448187" className="text-xs font-medium hover:text-orange-600 transition-colors">
                   +7 964 444-81-87
                 </a>
               </div>
