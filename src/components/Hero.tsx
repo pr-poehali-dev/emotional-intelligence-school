@@ -20,26 +20,12 @@ const Hero = () => {
     <>
       <section className="bg-white py-6">
         <div className="container mx-auto px-4">
-          <div className="relative w-full max-w-4xl mx-auto">
+          <div className="w-full max-w-4xl mx-auto">
             <img 
-              src="https://cdn.poehali.dev/files/3b3e065a-1a8f-4f2f-a592-c810fa497ea8.jpeg" 
-              alt="Международная школа развития эмоционального интеллекта" 
+              src="https://cdn.poehali.dev/files/47c85194-3734-4578-8483-a6da73203914.jpeg" 
+              alt="Международная школа развития эмоционального интеллекта для детей от 5-16 лет" 
               className="w-full"
             />
-            <div className="absolute bottom-8 right-12 bg-white/90 backdrop-blur-sm rounded-lg p-2 shadow-lg">
-              <div className="flex items-start gap-1 mb-1">
-                <Icon name="MapPin" size={14} className="text-orange-500 mt-0.5" />
-                <span className="text-xs font-medium">
-                  г. Владивосток,<br />ул. Русская, оф. 804/3
-                </span>
-              </div>
-              <div className="flex items-center gap-1">
-                <Icon name="Phone" size={14} className="text-orange-500" />
-                <a href="tel:+79644448187" className="text-xs font-medium hover:text-orange-600 transition-colors">
-                  +7 964 444-81-87
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
