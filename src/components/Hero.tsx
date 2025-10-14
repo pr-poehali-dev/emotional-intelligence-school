@@ -939,6 +939,12 @@ const Hero = () => {
                   className="w-full rounded-2xl"
                 />
               </div>
+              
+              <div className="text-center my-8">
+                <p className="text-2xl md:text-3xl font-semibold text-gray-900">
+                  Стоимость: 1500₽ <span className="text-lg font-normal text-gray-600">(онлайн)</span>
+                </p>
+              </div>
             </div>
             
             <div className="mt-8">
