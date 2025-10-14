@@ -110,5 +110,7 @@
   h5,
   h6 {
     font-family: "Silisi Strong", sans-serif;
+    letter-spacing: 0.02em;
+    font-stretch: expanded;
   }
 }
