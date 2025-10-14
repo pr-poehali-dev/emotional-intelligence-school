@@ -49,7 +49,7 @@ const Hero = () => {
         <div className="absolute bottom-20 right-10 w-48 h-48 bg-yellow-400 rounded-full opacity-50 blur-3xl"></div>
         
         <div className="container mx-auto px-4 py-12 relative z-10">
-          <h1 className="text-3xl md:text-5xl font-light text-gray-800 mb-6 max-w-3xl">
+          <h1 className="text-3xl md:text-5xl text-gray-800 mb-6 max-w-3xl" style={{ fontWeight: 100 }}>
             ТЕСТ ЭМОЦИОНАЛЬНОГО ИНТЕЛЛЕКТА ПОДРОСТКОВ (ТЭИП) 10-13 ЛЕТ
           </h1>
           <p className="text-base md:text-lg text-gray-700 mb-8 max-w-2xl">
@@ -65,7 +65,7 @@ const Hero = () => {
             </div>
             
             <div className="relative z-10 max-w-2xl">
-              <h2 className="text-2xl md:text-4xl font-light text-gray-800 mb-4">
+              <h2 className="text-2xl md:text-4xl text-gray-800 mb-4" style={{ fontWeight: 100 }}>
                 ЭМОЦИИ — ЭТО СУПЕРСИЛА
               </h2>
               <p className="text-lg text-gray-700 mb-6">
@@ -102,7 +102,7 @@ const Hero = () => {
         
         <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-screen">
           <div className="max-w-2xl">
-            <h2 className="text-3xl md:text-5xl font-light text-white mb-6">
+            <h2 className="text-3xl md:text-5xl text-white mb-6" style={{ fontWeight: 100 }}>
               ЩЕЛК!
             </h2>
             <p className="text-lg md:text-xl text-white/90 mb-8">
@@ -134,7 +134,7 @@ const Hero = () => {
         
         <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-screen">
           <div className="max-w-2xl">
-            <h2 className="text-3xl md:text-5xl font-light text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-5xl text-gray-900 mb-6" style={{ fontWeight: 100 }}>
               СУПЕРДЕТИ
             </h2>
             <p className="text-lg md:text-xl text-gray-800 mb-8">
@@ -166,7 +166,7 @@ const Hero = () => {
         
         <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-screen">
           <div className="max-w-2xl">
-            <h2 className="text-3xl md:text-5xl font-light text-white mb-6">
+            <h2 className="text-3xl md:text-5xl text-white mb-6" style={{ fontWeight: 100 }}>
               ОБЩЕНИЕ
             </h2>
             <p className="text-lg md:text-xl text-white/90 mb-8">
@@ -199,7 +199,7 @@ const Hero = () => {
         
         <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-screen">
           <div className="max-w-2xl">
-            <h2 className="text-3xl md:text-5xl font-light text-white mb-6">
+            <h2 className="text-3xl md:text-5xl text-white mb-6" style={{ fontWeight: 100 }}>
               НЕ БЫВАЕТ ПЛОХИХ ЭМОЦИЙ
             </h2>
             <p className="text-lg md:text-xl text-white/90 mb-8">
@@ -232,7 +232,7 @@ const Hero = () => {
         
         <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-screen">
           <div className="max-w-2xl">
-            <h2 className="text-3xl md:text-5xl font-light text-white mb-6">
+            <h2 className="text-3xl md:text-5xl text-white mb-6" style={{ fontWeight: 100 }}>
               НЕ ВСЕ СРАЗУ
             </h2>
             <p className="text-lg md:text-xl text-white/90 mb-8">
@@ -264,7 +264,7 @@ const Hero = () => {
         
         <div className="container mx-auto px-4 py-16 relative z-10 flex flex-col justify-between min-h-screen">
           <div className="max-w-2xl">
-            <h2 className="text-3xl md:text-5xl font-light text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-5xl text-gray-900 mb-6" style={{ fontWeight: 100 }}>
               СУПЕРВЗРОСЛЫЕ
             </h2>
             <p className="text-lg md:text-xl text-gray-800 mb-8">
@@ -292,7 +292,7 @@ const Hero = () => {
 
       <section className="relative min-h-screen bg-white overflow-hidden">
         <div className="container mx-auto px-4 py-16 relative z-10">
-          <h2 className="text-4xl md:text-6xl font-light text-gray-900 text-center mb-16">
+          <h2 className="text-4xl md:text-6xl text-gray-900 text-center mb-16" style={{ fontWeight: 100 }}>
             ЗАНЯТИЯ
           </h2>
           
@@ -327,7 +327,7 @@ const Hero = () => {
 
       <section className="relative min-h-screen bg-gray-50 overflow-hidden py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-6xl font-light text-gray-900 text-center mb-16">
+          <h2 className="text-4xl md:text-6xl text-gray-900 text-center mb-16" style={{ fontWeight: 100 }}>
             ПРОГРАММЫ
           </h2>
           
@@ -405,7 +405,7 @@ const Hero = () => {
 
       <section className="relative min-h-screen bg-white overflow-hidden py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-6xl font-light text-gray-900 text-center mb-8">
+          <h2 className="text-4xl md:text-6xl text-gray-900 text-center mb-8" style={{ fontWeight: 100 }}>
             КОМАНДА
           </h2>
           
@@ -503,7 +503,7 @@ const Hero = () => {
 
       <section className="py-12 bg-gradient-to-b from-purple-500 to-purple-600">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-light text-white text-center mb-8">Родители сообщают</h2>
+          <h2 className="text-3xl text-white text-center mb-8" style={{ fontWeight: 100 }}>Родители сообщают</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-xl mx-auto">
             <div className="bg-purple-400 bg-opacity-40 rounded-xl p-3 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
@@ -540,7 +540,7 @@ const Hero = () => {
       <section className="py-16 bg-gray-50" id="contacts">
         <div className="container mx-auto px-4">
           <div className="max-w-sm mx-auto bg-yellow-400 rounded-2xl shadow-xl p-6">
-            <h2 className="text-2xl font-light text-center mb-6 text-gray-800" style={{ fontFamily: 'Georgia, serif' }}>
+            <h2 className="text-2xl text-center mb-6 text-gray-800" style={{ fontFamily: 'Georgia, serif', fontWeight: 100 }}>
               Запишитесь на<br />пробное занятие
             </h2>
             
